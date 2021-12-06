@@ -1,0 +1,1481 @@
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+	.container {
+		width: 90%;
+	}
+	
+	.header-area {
+    	background-repeat: no-repeat;
+    	background-position: right;
+    	color: white;
+	}
+
+	.header-logo img {
+		width: 80%;
+	}
+/*
+	.heading-banner {
+		margin-top: 20px;
+	}*/
+
+	.header-left {
+		padding-bottom: 0;
+		text-align: center;
+	}
+
+	.header-left h2 {
+		font-size: 30px;
+	}
+
+	.header-left h6 {
+		color: red;
+	}
+
+	.header-left p {
+		font-size: 14px;
+	}
+
+	.header-left-btn {
+		padding: 10px 30px;
+		margin: 0;
+	}
+
+	.header-right-btn {
+		padding: 10px 30px;
+	}
+
+
+
+	/*################################################*/
+
+	.products {
+		padding: 0;
+	}
+
+
+	.categories {
+		margin: 5px;
+	}
+
+	.categories h4 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	.inner-text {
+		/*width: 45%;*/
+		padding: 30px 0 0 30px;
+		/*padding-left: 45px;*/
+		/*padding-top: 35px;*/
+	}
+
+	.products button {
+		font-size: 12px;
+	}
+
+	.cat-one, .cat-two, .cat-three {
+		height: 200px;
+		background-size: 35%;
+	}
+
+
+	/*########################################################*/
+
+	.trading-products-bg {
+		margin: 10px 0px;
+		height: auto;
+	}
+
+	.trading-products-img {
+		padding-top: 11px;
+    	padding-bottom: 0px;
+	}
+
+	.trading-products-img img {
+		width: 50%;
+		margin-top: 0px;
+	}
+
+	.trading-products ul {
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+
+	.trading-products-img a {
+		padding-left: 71%;
+	}
+
+	.trading-products h2 {
+		font-size: 17px;
+	}
+
+	.trading-products p {
+		font-size: 17px;
+	}
+
+	.trading-products button {
+		padding: 10px 10px;
+		font-size: 12px;
+	}
+
+	.trading-products-img a i {
+		line-height: 30px;
+    	width: 30px;
+    	height: 30px;
+	}
+
+	.trading-banner h6 {
+		padding-top: 15px;
+	}
+
+	.trading-banner h2 {
+		font-size: 25px;
+	}
+
+	/*###################################################*/
+
+	.offer-area {
+		text-align: center;
+		background-image: url(../images/trading.png);
+		background-repeat: no-repeat;
+    	background-size: cover;
+	}
+
+	.offer-area h2 {
+		font-size: 25px;
+		padding-top: 0;
+		padding-bottom: 15px;
+	}
+
+	/*########################################################*/
+
+	.trading-products h1 {
+		font-size: 25px;
+	}
+
+	.trading-products ul li a {
+		padding: 0px 10px;
+		font-size: 15px;
+	}
+
+	/*##########################################################*/
+
+	.features-products-img {
+		padding-top: 11px;
+		padding-bottom: 0px;
+	}
+
+	.features-products-img a {
+		padding-left: 71%;
+	}
+
+	.features-products-img a i {
+		line-height: 30px;
+    	width: 30px;
+    	height: 30px;
+	}
+
+	/*##############################################################*/
+
+	.testimonial-area h2 {
+		font-size: 31px;
+	}
+
+	.testimonial-area1 {
+		margin: 10px 0px;
+		height: auto;
+	}
+
+	/*########################################################*/
+
+
+	.subscribe-area input[type=email] {
+		font-size: 11px;
+	}
+
+	.subscribe-area input[type=submit] {
+		width: 30%;
+		font-size: 11px;
+	}
+
+	/*#########################################################*/
+
+	.footer {
+		margin-top: 5%;
+	}
+
+	.copyright {
+		text-align: center;
+	}
+
+
+
+
+										/*about-us*/
+
+
+
+
+	.about-us {
+		margin-bottom: 45px;
+    	margin-top: 35px;
+	}
+
+	.about-us ul {
+		padding-top: 15px;
+	}
+
+	.about-us h2 {
+		color: black;
+		font-size: 30px;
+		padding-bottom: 14px;
+	}
+
+	.about-us ul li {
+		margin: 0 10px;
+	}
+
+	.grocery-area {
+		padding-top: 0;
+		margin-top: 25px;
+	}
+
+	.grocery-img {
+		position: absolute;
+		opacity: 0.3;
+	}
+
+	.grocery-img img {
+		margin-left: -5%;
+	}
+
+	.grocery-text {
+		padding-top: 85px;
+	}
+
+	.grocery-text h2 {
+		text-align: center;
+		font-size: 25px;
+	}
+
+	.our-vision, .our-goal {
+		padding: 20px;
+	}
+
+	.our-vision h2, .our-goal h2 {
+		font-size: 22px;
+	}
+
+	.our-vision p, .our-goal p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.our-vision button, .our-goal button {
+		padding: 10px 20px;
+		font-size: 12px;
+	}
+
+	.about-video {
+		padding: 130px;
+	}
+
+	.about-features-area h2 {
+		font-size: 30px;
+		padding-bottom: 15px;
+	}
+
+	/*.features-area img {
+		max-width: 25%;
+	}*/
+
+	.coustomer-logo {
+		padding-top: 15px;
+	}
+
+	.testimonial-area {
+		margin-bottom: 20px;
+	}
+
+	.subscribe-area img {
+		max-width: 40%;
+		margin-bottom: -31%;
+	}
+
+	.footer {
+		padding: 35px 0 15px 0;
+	}
+
+	.copyright ul {
+		float: none;
+	}
+
+
+	/*############################################################################################################*/
+
+												/*SHOP*/
+
+
+	.shop-checkbox-categories {
+		border: none;
+		padding: 0;
+	}
+
+	.shop-checkbox-categories:hover {
+		padding: 10px;
+		border: 1px solid #0dcaf0;
+	}
+
+	.slider-product-details {
+		padding: 0;
+	}
+
+	.pages-product ul {
+		margin: 0;
+	}
+
+	.slider-product-details p {
+		font-size: 15px;
+	}
+
+	.nav-tabs .nav-link {
+		font-size: 15px;
+	}
+
+	.pages-description ul {
+		margin-bottom: 15px;
+	}
+
+	.shop-trading-text ul li {
+		font-size: 8px;
+	}
+
+	.trading-products-bg button {
+		padding: 6px 12px;
+		font-size: 12px;
+	}
+
+
+	/*############################################################################################################*/
+
+
+														/*GROXI-STORE-BLOG-ONLINE*/
+
+
+	.blog-posts {
+		padding: 0;
+	}
+
+	.shop-trading-img img {
+		width: 85%;
+	}
+
+
+	.shop-trading-text h2 {
+		font-size: 13px;
+	}
+
+	.shop-trading-text h6 {
+		font-size: 10px;
+		margin: 0;
+	}
+
+	.header-menu {
+		padding: 0;
+	}
+
+	.testimonial-area {
+		padding: 0;
+	}
+
+	.testimonial-area h2 {
+    	font-size: 20px;
+    	padding-bottom: 5px;
+	}
+
+
+	.blog-post-categories {
+		border: none;
+	}
+
+
+	/*###########################################################################*/
+
+
+	.contact-map {
+		padding: 25px 0;
+	}
+
+}
+
+/*###############################################################################################################################################################################################################*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.header-area {
+		background-size: cover;
+		background-position: right;
+	}
+
+	.header-logo {
+		text-align: center;
+		padding-bottom: 30px;
+	}
+
+	.header-logo img {
+		width: 100%;
+	}
+
+	.header-menu ul {
+		padding-left: 0;
+	}
+
+	.header-menu ul li {
+		font-size: 30px;
+	}
+
+	.header-menu ul li {
+		padding: 0;
+	}
+
+	.header-menu ul li a {
+		padding-left: 43px;
+	}
+
+	.header-icon {
+		text-align: center;
+	}
+
+	.header-left {
+		/*padding: 0;*/
+		/*text-align: center;*/
+	}
+
+	.header-left h6 {
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+
+	.header-left h2 {
+		font-size: 30px;
+	}
+
+	.header-left p {
+		padding: 0;
+		font-size: 15px;
+		padding-bottom: 20px;
+	}
+
+	.header-left-btn {
+		padding: 10px 25px;
+		font-size: 13px;
+	}
+
+	.header-right-btn {
+		padding: 10px 25px;
+		font-size: 13px;
+	}
+
+
+	.copyright ul {
+		float: none;
+	}
+
+							/*about-area*/
+
+	.about-us ul {
+		padding-top: 5px;
+	}
+
+	.about-us ul li {
+		margin: 5px;
+	}
+
+	.header-area h2 {
+		font-size: 35px;
+	}
+
+	.grocery-img img {
+		margin-left: -20%;
+		max-width: 120%;
+	}
+
+	.grocery-text h2 {
+		font-size: 21px;
+	}
+
+	.grocery-text p {
+		font-size: 8px;
+	}
+
+	.about-video {
+		padding: 130px;
+	}
+
+	.video-link a {
+		padding: 35px;
+	}
+
+	.features-area img {
+		padding-top: 15px;
+	}
+
+	/*.testimonial-area {
+		margin: 0;
+	}*/
+
+
+	/*###############################################################################*/
+
+	.categories {
+		margin-bottom: 10px;
+		background-size: 35%;
+	}
+
+	.inner-text {
+		width: 44%;
+		padding-left: 45px;
+		padding-top: 45px;
+		line-height: 40px;
+	}
+
+	.inner-text button {
+		font-size: 15px;
+	}
+
+	/*###############################################################*/
+
+	.trading-banner h6 {
+		font-size: 25px;
+	}
+
+	.trading-banner h2 {
+		font-size: 30px;
+		padding-bottom: 0;
+	}
+
+	.trading-products-img {
+		padding-top: 6px;
+	}
+
+	.trading-products-img a {
+		padding-left: 75%;
+	}
+
+	.trading-products-img a i {
+		line-height: 35px;
+		width: 35px;
+		height: 35px;
+	}
+
+	.trading-products ul {
+		padding-top: 0px;
+		padding-bottom: 8px;
+	}
+
+	.trading-products button {
+		padding: 10px 20px;
+	}
+
+	/*###########################################################*/
+
+	.offer-area {
+		text-align: center;
+		background-image: url(../images/trading.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	.offer-area h1 {
+		font-size: 70px;
+		padding: 15px;
+		margin: 0;
+	}
+
+	.offer-area button {
+		padding: 5px 20px;
+		font-size: 15px;
+		margin: 0;
+	}
+
+	.offer-area button i {
+		margin-left: 10px;
+	}
+
+	.offer-area h2 {
+		padding-bottom: 15px;
+		padding-top: 30px;
+		font-size: 40px;
+	}
+
+	/*####################################################################*/
+
+	.about-text h6 {
+		font-size: 14px;
+	}
+
+	.about-text h2 {
+		font-size: 25px;
+	}
+
+	.about-text p {
+		font-size: 15px;
+	}
+
+	.about-text button {
+		padding: 8px 20px;
+		font-size: 15px;
+	}
+
+	/*#########################################################################*/
+
+	.features-item h4 {
+		font-size: 25px;
+	}
+
+	.features-item p {
+		font-size: 13px;
+	}
+
+	.features-area button {
+		padding: 8px 20px;
+		font-size: 15px;
+		margin-bottom: 30px;
+	}
+
+	.features-products h6 {
+		font-size: 25px;
+	}
+
+	.features-products a {
+		font-size: 25px;
+	}
+
+	/*#############################################################*/
+
+
+	.testimonial-area h6 {
+		font-size: 30px;
+	}
+
+	.testimonial-area h2 {
+		font-size: 35px;
+		padding-bottom: 0;
+	}
+
+	.testimonial-area1 {
+		margin-top: 20px;
+	}
+
+/*#########################################################*/
+
+	.coustomer-logo {
+		padding-top: 45px;
+	}
+
+	.coustomer-icon {
+		width: 50%;
+		display: inline;
+	}
+
+	.coustomer-icon img {
+		padding-top: 20px;
+		margin-left: 10px;
+	}
+
+	/*##########################################################*/
+
+	.subscribe-area img {
+		width: 100%;
+	    margin-left: 0;
+	    margin-top: -33px;
+	    height: 350px;
+	}
+
+	.subscribe {
+		background-color: transparent;
+		margin-top: -35%;
+	}
+
+	.subscribe h2 {
+		font-size: 36px;
+		color: yellow;
+	}
+
+	input[type=email] {
+		padding: 10px;
+		font-size: 13px;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	input[type=submit] {
+		padding: 10px;
+		font-size: 13px;
+		margin: 0;
+		width: 40%;
+	}
+
+	/*########################################################################*/
+
+	.footer {
+		margin-top: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.footer-box {
+		float: none;
+	}
+
+	.footer-right {
+		padding-left: 85px;
+	}
+
+	.footer-box h2 {
+		padding-bottom: 10px;
+		padding-top: 30px;
+	}
+
+	.copyright {
+		text-align: center;
+		padding-top: 10px;
+	}
+
+
+	/*##############################################################################################################*/
+
+
+						/*SHOP*/
+
+
+	.trading-products-bg {
+		height: auto;
+	}
+
+	.shop-checkbox-categories {
+		padding: 0;
+		border: none;
+	}
+
+	.shop-checkbox-categories:hover {
+		border: 1px solid #0dcaf0;
+		padding: 10px;
+	}
+
+	.shop-categories-item {
+		padding-top: 20px;
+	}
+
+	.shop-categories-item img {
+		width: 50%;
+		margin-top: 0;
+	}
+
+	.shop-trading-text h2 {
+		font-size: 14px;
+	}
+
+	.shop-trading-text p {
+		font-size: 10px;
+	}
+
+	.shop-trading-text ul li {
+		font-size: 8px;
+	}
+
+	.shop-trading-img img {
+		width: 90%;
+	}
+
+
+	                                     /*PAGES*/
+
+
+	.slider-product-details p {
+		font-size: 16px;
+	}
+
+	.slider-product-details {
+		padding-left: 10px;
+	}
+
+	.pages-product {
+		padding-bottom: 20px;
+	}
+
+	.pages-description p {
+		font-size: 12px;
+	}
+
+	.pages-description {
+		margin-bottom: 25px;
+	}
+
+	.trading-products-img img {
+		width: 60%;
+	}
+
+
+	/*#####################################################################################################*/
+
+	.contact-map {
+		padding: 30px 0;
+	}
+
+	.testimonial-area {
+		padding-top: 0;
+	}
+}
+
+/*###############################################################################################################################################################################################################*/
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.header-area {
+		background-repeat: round;
+	}
+
+	.header-area h2 {
+		font-size: 40px;
+		padding-bottom: 0;
+	}
+
+	.header-area p {
+		font-size: 15px;
+    	padding-right: 37%;
+    	padding-bottom: 5px;
+	}
+
+	.header-left-btn {
+		padding: 10px 30px;
+		font-size: 13px;
+	}
+
+	.header-right-btn {
+		padding: 10px 30px;
+		font-size: 13px;
+	}
+
+	.header-icon ul {
+		padding-left: 75px;
+	}
+
+
+	/*#######################################################################*/
+
+	.categories {
+		margin-bottom: 10px;
+		background-size: 30%;
+	}
+
+	.inner-text {
+		width: 245px;
+		padding-left: 60px;
+	}
+
+	/*######################################################################*/
+
+	.trading-products ul {
+		padding-top: 0px;
+		padding-bottom: 10px;
+	}
+
+	.trading-products button {
+		padding: 10px 25px;
+	}
+
+	.trading-products-img {
+		padding-top: 10px;
+	}
+
+	.features-products-img {
+		padding-top: 10px;
+	}
+
+
+	/*#######################################################################*/
+
+	.offer-area {
+	    text-align: center;
+	    background-image: url(../images/trading.png);
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	}
+
+	.offer-area h1 {
+	    font-size: 70px;
+	    padding: 15px;
+	    margin: 0;
+	}
+
+	.offer-area button {
+	    padding: 5px 20px;
+	    font-size: 15px;
+	    margin: 0;
+	}
+
+
+	/*############################################################################*/
+
+	.testimonial-area h2 {
+		font-size: 35px;
+		padding-bottom: 0;
+	}
+
+	.testimonial-area1 {
+		margin-top: 20px;
+	}
+
+	/*##################################################################*/
+
+	.subscribe-area img {
+		width: 100%;
+	    margin-left: 0;
+	    margin-top: -33px;
+	}
+
+	.subscribe {
+		background-color: transparent;
+		margin-top: -285px;
+	}
+
+	.subscribe h2 {
+		color: yellowgreen;
+	}
+
+	input[type=email] {
+		padding: 10px;
+		font-size: 13px;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	input[type=submit] {
+		padding: 10px;
+		font-size: 13px;
+		margin: 0;
+		width: 40%;
+	}
+
+	/*###############################################################*/
+
+	/*.footer {
+		margin-top: 5%;
+		padding-top: 18%;
+		padding-bottom: 10px;
+	}*/
+
+	/*.footer-box {
+		padding-left: 100px;
+	}*/
+
+	.footer-box h2 {
+		padding-bottom: 10px;
+		padding-top: 30px;
+	}
+
+	.copyright {
+		padding-top: 10px;
+	}
+
+	.copyright p {
+		margin-bottom: 0;
+	}
+
+							/*about-area*/
+
+	.about-us ul {
+		padding-top: 10px;
+	}
+
+	/*.testimonial-area1 {
+		height: 385px;
+	}
+*/
+	.grocery-text {
+		padding-top: 0;
+	}
+
+	.grocery-text p {
+		font-size: 10px;
+	}
+
+	.grocery-text h2 {
+		font-size: 25px;
+	}
+
+	.grocery-img img {
+		margin: 0;
+	}
+
+	.features-area img {
+   	 	padding: 20px 0;
+	}
+
+	.subscribe-area img {
+		height: 400px;
+	}
+
+	.coustomer-logo {
+		padding-top: 10px;
+	}
+
+
+									/*SHOP*/
+
+
+    .trading-products-img img {
+    	width: 80%;
+    }
+
+  									  /*PAGES*/
+
+    .slider-product-details button {
+    	margin: 5px 0;
+    	padding: 10px 42px;
+    }
+
+    .slider-product-details p {
+    	font-size: 13px;
+    }
+
+    .product-service {
+    	margin: 5px 0;
+    }
+
+    .product-share span {
+    	font-size: 20px;
+    	padding-right: 15px;
+    }
+
+    .product-share ul li i {
+    	font-size: 13px;
+    }
+
+    .trading-products-img {
+    	padding-bottom: 0;
+    }
+
+    .trading-products-img img {
+    	width: 55%;
+    }
+
+    .trading-products-img a {
+    	font-size: 12px;
+    	padding-left: 65%;
+    }
+
+    .trading-products-img a i {
+    	line-height: 30px;
+    	width: 30px;
+    	height: 30px;
+    }
+
+    .pages-related-product ul {
+    	margin: 5px 0;
+    }
+
+    .trading-products-bg ul li i {
+    	font-size: 10px;
+    }
+
+    .trading-products-bg h2 {
+    	font-size: 15px;
+    }
+
+    .trading-products-bg p {
+    	font-size: 15px;
+    	margin: 5px 0;
+    }
+
+    .trading-products-bg button {
+    	padding: 6px 12px;
+    	font-size: 8px;
+    }
+
+    .copyright p {
+    	padding-top: 0;
+    }
+
+
+    											/*CONTACT*/
+
+
+    .contact-reach-us h2 {
+    	font-size: 35px;
+    }
+
+    .contact-reach-us i {
+    	font-size: 35px;
+    	padding: 25px 15px;
+    }
+
+    .contact-reach-us h6 {
+    	font-size: 15px;
+    }
+
+    .contact-reach-us p {
+    	font-size: 10px;
+    	margin-bottom: 5px;
+    }
+
+    .contact-from input[type=email], .contact-from input[type=name], .contact-from input[type=phone], .contact-from input[type=address]{
+    	font-size: 10px;
+    }
+
+    textarea {
+    	font-size: 10px;
+    }
+
+    .contact-map {
+    	padding: 30px 0;
+    }
+
+    .testimonial-area {
+    	padding-top: 0;
+    }
+
+}
+
+
+/*###############################################################################################################################################################################################################*/
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	.header-area {
+		background-position: right;
+	}
+
+	.header-left {
+		padding-top: 0px;
+	}
+
+	.header-left h6 {
+		font-size: 18px;
+	}
+
+	.header-left h2 {
+		font-size: 43px;
+	}
+
+	.heading-banner {
+		padding-bottom: 60px;
+	}
+
+	/*######################################################*/
+
+	.categories {
+		height: 200px;
+	}
+
+	.inner-text {
+		width: 69%;
+		padding-top: 35px;
+	}
+
+	/*#######################################################*/
+
+	.trading-products ul {
+		padding-top: 0px;
+		padding-bottom: 15px;
+	}
+
+	.trading-products button {
+		padding: 10px 25px;
+	}
+
+	.features-products h2 {
+		font-size: 25px;
+	}
+
+	/*###############################################*/
+
+	.subscribe-area img {
+		margin-top: -140px;
+    	margin-bottom: -185px;
+    	width: 40%;
+	}
+
+	/*##############################################*/
+
+
+	      /*about-us*/
+
+	/*.header-menu ul li {
+	 	padding: 0 6px;
+	 }*/
+
+	.header-icon {
+	    margin-left: -38px;
+	    text-align: right;
+	}
+
+	.grocery-img img {
+		height: 507px;
+	}
+
+	.features-area img {
+    	padding: 20px 0 16px;
+	}
+
+	.copyright span {
+		padding: 0;
+	}
+
+
+	                                         /*SHOP*/
+
+
+
+	.trading-products-img img {
+		width: 60%;
+	}
+
+	.trading-products-img a i {
+		line-height: 30px;
+    	width: 30px;
+    	height: 30px;
+	}
+
+	.trading-products-img {
+		padding-top: 10px;
+	}
+
+	.trading-products-img a {
+		padding-left: 65%;
+	}
+
+
+										/*PAGES*/
+
+
+	.slider-product-details button {
+    	margin: 5px 0;
+    	padding: 10px 42px;
+    }
+
+    .slider-product-details p {
+    	font-size: 13px;
+    }
+
+    .product-service {
+    	margin: 5px 0;
+    }
+
+    .pages-product ul {
+    	margin: 3px 0;
+    }
+
+    .slider-product-details h3 {
+    	padding-top: 5px;
+    }
+
+    .slider-product-details p {
+    	margin-bottom: 10px;
+    }
+
+    .pages-description {
+    	margin-bottom: 30px;
+	}
+
+	.trading-products-img a {
+    	padding-left: 70%;
+	}
+
+	.trading-products-img a {
+    	font-size: 12px;
+    	padding-left: 65%;
+    }
+
+    .trading-products-img a i {
+    	line-height: 30px;
+    	width: 30px;
+    	height: 30px;
+    }
+
+    .pages-related-product ul {
+    	margin: 5px 0;
+    }
+
+    .trading-products-bg ul li i {
+    	font-size: 10px;
+    }
+
+    .trading-products-bg h2 {
+    	font-size: 15px;
+    }
+
+    .trading-products-bg p {
+    	font-size: 15px;
+    	margin: 5px 0;
+    }
+
+    .trading-products-bg button {
+    	padding: 6px 12px;
+    	font-size: 8px;
+    }
+
+
+    									/*BLOG*/
+
+
+    .blog-posts {
+    	padding-top: 0;
+    }
+
+    .blog-post-contant h6 {
+    	font-size: 12px;
+    }
+
+    .blog-post-contant h4 {
+    	font-size: 20px;
+    	line-height: 22px;
+    }
+
+    .blog-post-contant p {
+    	font-size: 14px;
+    }
+
+    .blog-post-contant button {
+    	font-size: 12px;
+    }
+
+
+    								/*CONTACT*/
+
+
+   	.contact-map {
+   		padding: 40px 0;
+   	}
+
+   	.testimonial-area {
+   		padding: 0;
+   	}
+
+   	.copyright span {
+   		padding-left: 65px;
+   	}
+
+
+
+}
+
+/*####################################################################################################################*/
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+	.about-features img {
+		height: 435px;
+	}
+
+	.header-menu {
+		justify-content: start;
+	}
+
+	.features-area img {
+    	width: 60px;
+    	padding: 20px 0 16px;
+	}
+
+	.img-wrap img {
+		width: 100%;
+	}
+
+	.features-area h4 {
+		font-size: 24px;
+	}
+
+	.features-area p {
+		font-size: 16px;
+	}
+
+	.copyright span {
+		padding-left: 190px;
+	}
+
+	.subscribe-area img {
+		margin-bottom: -15%;
+    	margin-top: -220px;
+    	width: 40%;
+    	margin-left: 0;
+	}
+
+
+		                                 /*SHOP*/
+
+
+
+    .trading-products-img img {
+		width: 60%;
+	}
+
+	.trading-products-img a i {
+		line-height: 30px;
+    	width: 30px;
+    	height: 30px;
+	}
+
+	.trading-products-img {
+		padding-top: 10px;
+	}
+
+	.trading-products-img a {
+		padding-left: 77%;
+	}
+
+
+									/*PAGES*/
+
+
+	.slider-product-details h1 {
+		font-size: 33px;
+	}
+
+    .slider-product-details p {
+    	font-size: 13px;
+    }
+
+    .product-service {
+    	margin: 5px 0;
+    }
+
+    .pages-product ul {
+    	margin: 3px 0;
+    }
+
+    .slider-product-details h3 {
+    	padding-top: 12px;
+    	font-size: 30px;
+
+    }
+
+    .slider-product-details p {
+    	margin-bottom: 18px;
+    	font-size: 17px	;
+    }
+
+    .pages-description {
+    	margin-bottom: 30px;
+	}
+
+	.product-share span {
+		font-size: 30px;
+    	padding-right: 30px;
+	}
+
+	.product-share {
+		padding-bottom: 15px;
+	}
+
+	.testimonial-area {
+		padding-top: 2%;
+	}
+
+
+}
+
