@@ -1369,63 +1369,35 @@
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 
-	.about-features img {
-		height: 435px;
-	}
-
 	.header-menu {
 		justify-content: start;
-	}
-
-	.features-area img {
-    	width: 60px;
-    	padding: 20px 0 16px;
 	}
 
 	.img-wrap img {
 		width: 100%;
 	}
 
-	.features-area h4 {
-		font-size: 24px;
-	}
-
-	.features-area p {
-		font-size: 16px;
-	}
-
 	.copyright span {
 		padding-left: 190px;
 	}
 
-	.subscribe-area img {
+	/* .subscribe-area img {
 		margin-bottom: -15%;
     	margin-top: -220px;
     	width: 40%;
     	margin-left: 0;
-	}
+	} */
 
 
 		                                 /*SHOP*/
 
 
 
-    .trading-products-img img {
-		width: 60%;
-	}
 
 	.trading-products-img a i {
-		line-height: 30px;
-    	width: 30px;
-    	height: 30px;
-	}
-
-	.trading-products-img {
-		padding-top: 10px;
-	}
-
-	.trading-products-img a {
-		padding-left: 77%;
+		line-height: 45px;
+    	width: 45px;
+    	height: 45px;
 	}
 
 
@@ -1470,10 +1442,6 @@
 
 	.product-share {
 		padding-bottom: 15px;
-	}
-
-	.testimonial-area {
-		padding-top: 2%;
 	}
 
 

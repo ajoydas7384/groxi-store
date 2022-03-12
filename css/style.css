@@ -56,12 +56,22 @@ body {
 	margin: 0 auto;
 }
 
-img {
+/* img {
 	max-width: 100%;
+} */
+
+a {
+	text-decoration: none;
+	color: gray;
 }
 
-.container {
-	 width: 80%; 
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+.about-us a:hover {
+	color: #9fcb22;
 }
 
 .active {
@@ -74,57 +84,73 @@ img {
 */
 .header-area {
 	background-image: url(../images/banner-img.png);
-	background-size: cover;
+	background-repeat: round;
 }
 
-.header-area-bg {
-	width: 15%;
-	margin-bottom: -20%;
+.header-area-bg img {
+	float: left;
+	width: 260px;
 }
 
 .header-left {
-	padding-top: 8%;
-	padding-bottom: 5%;
+	padding: 240px 0;
 }
 
 
 .header-area h6 {
 	font-family: Jost-Medium;
 	color: #9fcb22;
-	font-size: 20px;
-	padding-bottom: 10px;
+	font-size: 25px;
+	margin-bottom: 30px;
 }
 
 .header-area h2 {
 	font-family: Jost-Bold;
-	font-size: 55px;
-	padding-bottom: 5px;
+	font-size: 70px;
+	margin-bottom: 30px;
 }
 
 .header-area p {
 	font-family: Barlow-Regular;
-	font-size: 20px;
-	padding-right: 10%;
+	font-size: 24px;
 	flood-color: #252932;
-	padding-bottom: 10px;
+	margin-bottom: 40px;
 }
 
 
 .header-left-btn {
-	padding: 15px 40px;
-  background-color: #9fcb22;
-  color: white;
-  border: none;
-  font-family: Barlow-Regular;
-  margin-right: 10px;
+	padding: 20px 50px;
+	background-color: #9fcb22;
+	color: white;
+	border: none;
+	font-family: Barlow-Regular;
+	margin-right: 17px;
+	font-weight: 600;
+	border: 1px solid transparent;
+}
+
+.header-left-btn:hover {
+	background-color: white;
+	color: #9fcb22;
+	border: 1px solid #9fcb22;
+	transition: .5s;
 }
 
 .header-right-btn {
-	padding: 15px 40px;
-  background-color: #14462e;
-  color: white;
-  border: none;
-  font-family: 'Barlow-Regular';
+	padding: 20px 50px;
+	background-color: #14462e;
+	color: white;
+	border: none;
+	font-family: 'Barlow-Regular';
+	font-weight: 600;
+	border: 1px solid transparent;
+}
+
+.header-right-btn:hover {
+	background-color: white;
+	color: #14462e;
+	border: 1px solid #14462e;
+	transition: .5s;
 }
 
 /*.header-logo img {
@@ -137,13 +163,22 @@ img {
 
 .header-menu ul li {
 	list-style: none;
-  display: inline-block;
+  	display: inline-block;
+	  margin-right: 30px;
 }
 
 .header-menu ul li a {
-  text-decoration: none;
-  font-family: Barlow-Regular;
-  color: #696c74;
+	text-decoration: none;
+	font-family: Barlow-Regular;
+	color: #696c74;
+}
+
+.header-menu ul li:hover a {
+	color: #9fcb22 !important;
+}
+
+.heading-banner {
+	padding-top: 50px;
 }
 
 /*.header-icon {
@@ -157,9 +192,9 @@ img {
 .header-icon ul li {
 	text-decoration: none;
 	display: inline-block;
-	line-height: 34px;
-	width: 40px;
-	height: 40px;
+	line-height: 45px;
+	width: 45px;
+	height: 45px;
 	border: 1px solid #d3dfe8;
 	text-align: center;
 	border-radius: 50%;
@@ -167,17 +202,35 @@ img {
 	background-color: white;
 }
 
+.header-icon ul li:hover {
+	background: #9fcb22;
+	transition: 1s;
+}
+
+.header-icon ul li:hover i {
+	color: white;
+	transition: 1s;
+}
+
 .header-icon ul li i {
 	color: #9fcb22;
-	font-size: 12px;
+	font-size: 17px;
+}
+
+.header-menu ul li:hover a {
+	color: #9fcb22 ;
+}
+
+.navbar-nav li a {
+	font-size: 20px;
 }
 
 
-.navbar-toggler {
+/* .navbar-toggler {
 	padding: 0 5px;
 	font-size: 20px;
 	border: none;
-}
+} */
 
 /*.categories-one {
 	background-color: #92ddd8;
@@ -200,38 +253,42 @@ img {
 }*/
 
 .products {
-	padding-top: 75px;
-	padding-bottom: 75px;
+	padding-top: 140px;
+	padding-bottom: 140px;
 	color: white;
 }
 
 .products h2 {
 	font-size: 23px;
-  font-family: 'Jost-Regular';
+ 	 font-family: 'Jost-Regular';
 }
 
 
 .products button {
 	text-transform: none;
-  color: white;
-  background: transparent;
-  border: none;
-  padding: 0px;
-  font-size: 12px;
-  font-family: 'Barlow-Regular';
+	color: white;
+	background: transparent;
+	border: none;
+	padding: 0px;
+	font-family: 'Barlow-Regular';
+	font-weight: 600;
+}
+
+.products button i {
+	margin-left: 10px;
 }
 
 /*#####################################################*/
 
-.trading-products {
-	padding-bottom: 5%;
-}
+/* .trading-products {
+	margin-bottom: 140px;
+} */
 
-.trading-products ul {
+/* .trading-products ul {
 	padding-left: 0;
 	padding-bottom: 15px;
 	margin: 0;
-}
+} */
 
 .trading-products ul li {
 	display: inline-block;
@@ -240,18 +297,26 @@ img {
 
 .trading-products-bg {
 	background-color: #f6fafb;
-	margin:0 0 25px;
+	margin-bottom: 25px;
 	border: 1px solid transparent;
-	padding-bottom: 23px;
 }
 
 .trading-products-bg ul li i {
-	font-size: 12px;
+	font-size: 15px;
+	color: #fccc42;
+	margin-bottom: 20px;
 }
 
 .trading-products-img {
-	padding-top: 17px;
-  padding-bottom: 15px;
+  	margin-bottom: 55px;
+}
+
+.badge {
+	float: left;
+	background: #d9485b;
+	color: white;
+	font-size: 15px;
+	border-radius: 0;
 }
 
 /*.trading-products-img img {
@@ -260,17 +325,20 @@ img {
 }*/
 
 .trading-products-img a {
-	padding-left: 80%;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
 }
 
 .trading-products-img a i {
 	line-height: 35px;
-  width: 35px;
-  height: 35px;
-  background-color: #9fcb22;
-  border-radius: 50%;
-  text-align: center;
-  color: white;
+	width: 35px;
+	height: 35px;
+	color: #9fcb22;
+	border-radius: 50%;
+	text-align: center;
+	background-color: white;
+	border: 1px solid #9fcb22;
 }
 
 
@@ -278,24 +346,27 @@ img {
 	border: 1px solid #9fcb22;
 }
 
-.trading-products-bg:hover a i {
-	color: #9fcb22;
-	background-color: white; 
+.trading-products-bg a:hover i {
+	background-color: #9fcb22;
+	color: white;
+	border: 1px solid #9fcb22;
 }
 
-.trading-products-bg:hover button {
+.trading-products-bg button:hover {
 	background-color: #9fcb22;
 }
 
 .trading-products-bg h2 {
 	font-family: 'Jost-Medium';
-	font-size: 22px;
+	font-size: 26px;
+	color: #000;
 }
 
 .trading-products-bg p {
 	font-family: Barlow-SemiBold;
 	color: #9fcb22;
-	font-size: 20px;
+	font-size: 23px;
+	margin-bottom: 25px;
 }
 
 .trading-products-bg del {
@@ -303,33 +374,52 @@ img {
 	color: #bbbcbd;
 }
 
+.nav-tabs {
+	margin-bottom: 30px;
+	border-bottom: none;
+}
+
+.nav-tabs .nav-link {
+	color: black;
+}
+
+.nav-tabs .nav-link.active {
+	background: none;
+	border-bottom: none;
+}
+
 .trading-products button {
-	padding: 15px 30px;
-	color: white;
+	padding: 0;
+	/* color: white; */
 	background-color: #14462e;
 	border: none;
 	font-family: 'Barlow-SemiBold';
     font-size: 15px;
 }
 
-.orange {
-	color: orange;
-}
-
 .trading-banner h6 {
 	font-family: 'Jost-Medium';
     color: #9fcb22;
-    font-size: 20px;
+    font-size: 22px;
+	margin-bottom: 20px;
 }
 
 .trading-banner h2 {
 	font-family: 'Jost-Medium';
-    font-size: 40px;
-    padding-bottom: 25px;
-    padding-top: 5px;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.products-img {
+	padding-top: 65px;
 }
 
 /*##################################################################################*/
+
+
+.offers {
+	padding: 55px;
+}
 
 .offer-area {
 	background-color: #b0e123;
@@ -337,10 +427,9 @@ img {
 }
 
 .offer-area h1 {
-		font-size: 55px;
-    font-family: Jost-Medium;
-    color: white;
-    padding: 25px 0px 0px 45px;
+	font-size: 60px;
+	font-family: Jost-Medium;
+	color: white;
 }
 
 .offer-area span {
@@ -350,16 +439,15 @@ img {
 .offer-area button {
 	background: transparent;
 	border: none;
-	padding: 10px 20px;
 	font-family: Barlow-Regular;
 	color: 	white;
-	margin-left: 26px;
+	font-size: 21px;
 }
 
 .offer-area h2 {
 	color: white;
-	font-size: 40px;
-	padding-top: 30px;
+	font-size: 46px;
+	margin: 55px 0px;
 	font-family: Jost-Medium;
 }
 
@@ -368,175 +456,108 @@ img {
 
 .about-area {
 	background-image: url(../images/about-area.png);
-	background-size: cover;
-	margin-top: 66px;
+	background-repeat: round;
+	margin-top: 140px;
 }
 
 .about-text {
 	background-color: white;
-	margin-top: 20%;
-  border-top: 5px solid #9fcb22;
-  padding: 60px 50px;
+	margin-top: 140px;
+	border-top: 5px solid #9fcb22;
+	padding: 90px 70px;
 }
 
 .about-text h6 {
 	font-family: Jost-Medium;
 	color: #9fcb22;
-	padding-bottom: 10px;
+	margin-bottom: 25px;
+	font-size: 22px;
 }
 
 .about-text h2 {
 	font-family: Jost-SemiBold;
-	padding-bottom: 10px;
+	margin-bottom: 20px;
+	font-size: 45px;
 }
 
 .about-text p {
 	color: #808080;
-	padding-bottom: 10px;
+	font-size: 20px;
 }
 
 .about-text button {
-	padding: 10px 20px;
+	padding: 20px 45px;
     color: white;
     background-color: #9fcb22;
     border: none;
+    margin-top: 15px;
+	font-family: Barlow-SemiBold;
+}
+
+.about-area-bg img {
+	float: right;
+	margin-top: 140px;
 }
 
 /*###########################################*/
 
 
-/*.features-area {
-	padding-top: 5%;
-	padding-bottom: 5%;
-}*/
+.features-area {
+	padding-top: 140px;
+	padding-bottom: 140px;
+}
 
 .features-area h4 {
 	font-family: Jost-SemiBold;
-	font-size: 20px;
+	font-size: 26px;
 }
 
 .features-area p {
 	font-family: Barlow-Regular;
 	color: gray;
-	font-size: 14px;
+	font-size: 20px;
+	margin-bottom: 60px;
 }
 
 .features-area img {
-	padding-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .features-area button {
-	padding: 10px 30px;
-  border: none;
-  background: limegreen;
-  color: white;
+	padding: 20px 50px;
+	border: none;
+	background: #9fcb22;
+	color: white;
 }
 
 .features-item {
-	padding: 10px 20px;
+	padding: 0px 30px;
 }
 
-/*.features-item img {
-	width: 30%;
-}*/
-
-.about-us .features-item img {
-	width: 35%;
-}
-
-/*.features-area button {
-	padding: 10px 30px;
-  margin-top: 25px;
-  color: white;
-  background-color: #9fcb22;
-  border: none;
-  font-family: Barlow-SemiBold;
-}*/
-
-/*#################################################*/
-
-.features-products {
+.featured-products {
 	background-color: #f6fafb;
-	padding-top: 80px;
+	padding: 140px 0;
 }
 
-.features-products h6 {
-	font-family: 'Jost-SemiBold';
-    font-size: 22px;
-    color: #9fcb22;
+.featured-bg-img img {
+	float: left;
+	margin-top: 250px;
 }
 
-.features-products h2 {
-	font-family: Jost-Bold;
-}
-
-.features-products-bg {
-	background-color: white;
-	margin: 10px 0px;
-	border: 1px solid transparent;
-	padding-bottom: 30px;
-}
-
-.features-products-bg:hover {
-	border: 1px solid red;
-}
-
-.features-products-bg:hover a i {
-	color: red;
-	background-color: yellow;
-}
-
-.features-products-img {
-	height: 50%;
-	padding-top: 17px;
-	padding-bottom: 15px;
-}
-
-/*.features-products-img img {
-	margin-top: -20px;
-}*/
-
-.features-products-img a {
-	display: block;
-	text-align: right;
-	margin-right: 15px;
-	/*padding-left: 80%;*/
-}
-
-.features-products-img a i {
-	line-height: 40px;
-    width: 40px;
-    height: 40px;
-    background-color: red;
-    border-radius: 50%;
-    text-align: center;
-    color: white;
-}
-
-.features-products ul {
-	padding-bottom: 15px;
-}
-
-.features-products ul li a {
+.trading-banner ul li a {
 	text-decoration: none;
 	color: black;
 	padding: 0px 20px;
 	font-family: Barlow-SemiBold;
-	font-size: 20px;
+	font-size: 23px;
 }
 
-.features-products ul li a:hover {
+.trading-banner ul {
+	margin-bottom: 40px;
+}
+
+.trading-banner ul li a:hover {
 	color: #9fcb22;
-}
-
-.features-products p {
-	color: #9fcb22;
-	font-family: Barlow-SemiBold;
-}
-
-.features-products del {
-	font-family: Barlow-Regular;
-	color: #bbbcbd;
 }
 
 /*##########################################*/
@@ -544,55 +565,61 @@ img {
 
 .testimonial-area ul {
 	padding: 0px;
+	margin-bottom: 20px;
 }
 
 .testimonial-area ul li {
 	text-decoration: none;
 	display: inline-block;
+	margin-right: 5px;
 }
 
 .testimonial-area h6 {
 	font-family: Jost-Medium;
 	color: #9fcb22;
-	font-size: 25px;
+	font-size: 22px;
 }
 
 .testimonial-area h2 {
 	font-family: Jost-Medium;
-	padding-bottom: 25px;
 	font-size: 45px;
+	margin-bottom: 50px;
 }
 
-.testimonial-area1 h5 {
+.testimonial-area-inner h5 {
 	font-family: Jost-SemiBold;
-	font-size: 15px;
+	font-size: 22px;
+	color: #000;
 }
 
-.testimonial-area1 span {
+.testimonial-area-inner span {
 	color: 	#9fcb22;
 }
 
 .testimonial-area p {
 	font-family: Barlow-Italic;
 	color: gray;
-	padding-top: 15px;
 	line-height: 30px;
-}
-				
-.testimonial-area {
-	padding-top: 5%;
-	/*margin-bottom: -234px;*/
+	font-size: 23px;
 }
 
-.testimonial-area1 {
+.testimonial-area-inner {
 	background-color: #f6fafb;
 	padding: 30px;
 	border-top: 3px solid #9fcb22;
 	height: auto;
 }
 
-.testimonial-area1 ul li i {
+.testimonial-area-inner ul li i {
 	font-size: 13px;
+	color: #fbc729;
+}
+
+.testimonial-area-inner img {
+	width: 40px !important;
+	height: 40px;
+	margin-bottom: 35px;
+	margin-top: 25px;
 }
 
 .coustomer-logo {
@@ -613,32 +640,34 @@ img {
 .subscribe {
 	background-color: #aedf23;
 	color: white;
-	padding: 40px;
+	padding: 65px 0px;
+	margin-top: 95px;
 }
 
 .subscribe h2 {
 	font-family: 'Jost-SemiBold';
-    font-size: 38px;
+    font-size: 45px;
+	margin-bottom: 30px;
 }
 
 input[type=email] {
 	padding: 10px;
-  border: none;
-  font-family: 'Barlow-Regular';
-  font-size: 12px;
-  width: 70%;
-  outline: none;
+	border: none;
+	font-family: 'Barlow-Regular';
+	font-size: 18px;
+	width: 70%;
+	outline: none;
 }
 
 input[type=submit] {
 	padding: 10px;
-  color: white;
-  margin: -5px;
-  border: none;
-  font-size: 12px;
-  font-family: 'Barlow-SemiBold';
-  background-color: #14462e;
-  width: 25%;
+	color: white;
+	margin: -5px;
+	border: none;
+	font-size: 18px;
+	font-family: 'Barlow-SemiBold';
+	background-color: #14462e;
+	width: 25%;
 }
 
 .subscribe-area {
@@ -646,9 +675,10 @@ input[type=submit] {
 }
 
 .subscribe-area img {
-  margin-left: 24px;
-  margin-bottom: -13%;
-  margin-top: -220px;
+	margin-left: 160px;
+    margin-bottom: 0;
+    margin-top: -200px;
+    float: left;
 }
 
 /*####################################################################*/
@@ -665,20 +695,21 @@ input[type=submit] {
 
 .footer h2 {
 	font-family: Jost-Medium;
-	font-size: 25px;
-    padding-bottom: 15px;
+	font-size: 23px;
+	margin-bottom: 25px;
     color: white;
 }
 
 .footer h5 {
 	font-family: Barlow-Regular;
-	font-size: 17px;
-	padding-bottom: 5px;
+	font-size: 18px;
+	margin-bottom: 10px;
 }
 
 .footer h6 {
 	font-family: Barlow-Regular;
-	font-size: 12px;
+	font-size: 18px;
+	margin-bottom: 20px;
 }
 
 .footer ul {
@@ -686,6 +717,18 @@ input[type=submit] {
 	padding: 0;
 	line-height: 28px;
 	font-size: 15px;
+}
+
+.footer a {
+	color: #4a8066;
+}
+
+.footer ul li {
+	margin-bottom: 10px;
+}
+
+.footer-box {
+	padding-left: 160px;
 }
 
 /*########################################################*/
@@ -717,6 +760,10 @@ input[type=submit] {
 	padding-left: 150px;
 }
 
+.copyright a {
+	color: #4a8066;
+}
+
 
 /*################################################################################################################################################################################################################*/
 
@@ -724,7 +771,7 @@ input[type=submit] {
 .about-us-area {
 	background-image: url(../images/about-banner-bg.png);
 	background-position: right;
-  background-size: cover;
+ 	 background-size: cover;
 }
 
 /*.about-us-area ul {
@@ -741,8 +788,9 @@ input[type=submit] {
 .about-us {
 	background-color: white;
 	border-top: 2px solid #9fcb22;
-	margin-bottom: 120px;
-	margin-top: 20px;
+	margin-top: 100px;
+	margin-bottom: 140px;
+	padding: 50px 0px;
 
 }
 
@@ -751,14 +799,20 @@ input[type=submit] {
 }
 
 .about-us ul {
-	padding-top: 30px;
 	padding-left: 0;
-  color: mediumseagreen;
+  	color: mediumseagreen;
 }
 
 .about-us ul li {
 	display: inline-block;
-	margin: 0 10px;
+	margin: 10px;
+	color: #9fcb22;
+}
+
+.about-us ul li a {
+	color: #9fcb22;
+	font-weight: 600;
+	font-size: 22px;
 }
 
 /*############################################*/
@@ -778,13 +832,13 @@ input[type=submit] {
 
 .grocery-text h2 {
 	font-family: Jost-SemiBold;
-	font-size: 35px;
-	padding-bottom: 10px;
+	font-size: 45px;
+	margin-bottom: 30px;
 }
 
 .grocery-text p {
 	font-family: Barlow-Regular;
-	font-size: 15px;
+	font-size: 20px;
 	color: gray;
 }
 
@@ -793,66 +847,92 @@ input[type=submit] {
 
 .customer-review {
 	background-color: #f6fafb;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding: 140px 0;
 }
 
 .our-vision,.our-goal {
-	padding: 40px;
+	padding: 40px 60px;
 	background-color: white;
 	border-top: 3px solid #9fcb22;
 }
 
 .our-vision h2, .our-goal h2 {
 	font-family: 'Jost-SemiBold';
-  padding: 8px 0px;
-  margin: 0;
+	padding: 8px 0px;
+	margin: 0;
+	font-size: 38px;
 } 
 
 .our-vision p, .our-goal p {
 	font-family: 'Barlow-Regular';
-  line-height: 28px;
-  color: gray;
+	color: gray;
+	font-size: 20px;
+	margin-bottom: 30px;
 }
 
 .our-vision button, .our-goal button {
 	padding: 10px 35px;
-  border: none;
-  background-color: #9fcb22;
-  color: white;
-  font-family: 'Barlow-SemiBold';
-  font-size: 15px;
+	border: none;
+	background-color: #9fcb22;
+	color: white;
+	font-family: 'Barlow-SemiBold';
+	font-size: 15px;
 }
 
 /*##########################################################*/
 
 .about-video {
 	background-image: url(../images/about-video-link.png);
-	padding: 250px;
+	/* padding: 250px; */
 	background-size: cover;
+	position: relative;
+	height: 500px;
 }
 
-.video-link a {
-	background-color: #ef8228;
-  height: 40px;
-  width: 40px;
-  padding: 45px;
-  border-radius: 50%;
+.video-layer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -70px;
+	margin-left: -70px;
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+.video-link {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 110px;
+    width: 110px;
+    background: #ef8228;
+    border-radius: 50%;
+    margin-top: -55px;
+    margin-left: -55px;
 }
 
 .video-link i {
 	color: white;
+	top: 50%;
+    left: 50%;
+    margin-top: -11px;
+    position: absolute;
+    margin-left: -11px;
+    font-size: 22px;
 }
 
 /*##########################################*/
 
 .about-features-area {
-	padding-top: 50px;
+	margin-top: 140px;
+	margin-bottom: 140px;
 }
 
 .about-features-area h2 {
 	font-family: 'Jost-SemiBold';
-  font-size: 40px
+  	font-size: 40px
 }
 
 
@@ -871,8 +951,8 @@ input[type=submit] {
 
 .shop-checkbox-categories h2 {
 	font-family: 'Jost-SemiBold';
-  padding-bottom: 10px;
-  font-size: 25px;
+	font-size: 25px;
+	margin-bottom: 25px;
 }
 
 .shop-features-area {
@@ -947,32 +1027,55 @@ input[type=submit] {
 
 .shop-trading-btn button {
 	font-family: 'Barlow-SemiBold';
-  font-size: 15px;
-  border: none;
-  background: transparent;
-  margin-left: 20px;
-  padding: 10px 15px;
-  color: limegreen;
+	font-size: 15px;
+	border: none;
+	background: transparent;
+	margin-left: 20px;
+	padding: 10px 15px;
+	color: limegreen;
 }
 
 .shop-filter-price h2 {
 	font-family: 'Jost-SemiBold';
-  font-size: 22px;
-  /*padding: 20px;*/
+  	font-size: 22px;
 }
 
-/*.about-us > ul li {
-	margin: 5px;
-	padding-top: 10px;
-	padding-bottom: 5px;
-}*/
+.trading-products {
+	margin-bottom: 140px;
+}
+
+.form-control:focus-visible {
+	outline: none;
+}
+
+.btn-secondary {
+    background-color: #f6fafb;
+    color: gray;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Barlow-Regular';
+	padding: 15px;
+	border: none;
+}
+
+.dropdown-menu {
+	width: 100%;
+}
+
+.dropdown-toggle::after {
+	float: right;
+	font-size: 25px;
+	margin-top: 5px;
+}
 
 .trading-products-bg button {
-	padding: 6px 10px;
-  color: white;
-  background-color: green;
-  border: none;
-  font-size: 15px;
+	padding: 15px 20px;
+	color: white;
+	background-color: green;
+	border: none;
+	font-size: 14px;
+	margin-bottom: 55px;
 
 }
 
@@ -986,36 +1089,29 @@ input[type=submit] {
 }
 
 label {
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 	font-family: Barlow-Regular;
+	font-size: 18px;
 }
 
-.categories {
-	height: 250px;
-	background-size: 52%;
-}
 
 .cat-one {
     background-image: url("../images/categories-1st-bg-img.png");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-color: #92ddd8;
+    background-repeat: round;
+	background-size: cover;
 }
 .cat-two {
     background-image: url("../images/categories-2nd-img.png");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-color: #fa9320;
+    background-repeat: round;
+	background-size: cover;
 }
 .cat-three {
     background-image: url("../images/categories-3rd-img.png");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-color: #a8d723;
+    background-repeat: round;
+	background-size: cover;
 }
 
 .inner-text {
-  width: 53%;
   padding-left: 35px;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1023,32 +1119,42 @@ label {
 
 .inner-text h4 {
 	font-size: 28px;
-  font-family: 'Jost-Regular';
-  line-height: 37px;
+	font-family: 'Jost-Regular';
+	line-height: 37px;
+	margin-bottom: 40px;
 }
 
 .listing-box {
 	background-color: red;
-  padding: 10px;
-  color: white;
-  margin-right: 5px;
+	padding: 15px;
+	color: white;
+	margin-right: 5px;
+	font-size: 25px;
 }
 
 .listing-list {
 	background: green;
-  color: white;
-  padding: 10px;
+	color: white;
+	padding: 15px;
+	font-size: 25px;
+	margin-right: 25px;
 }
 
 .listing p {
 	display: inline-block;
-	margin-left: 20px;
+	font-size: 18px;
+	color: #767676;
 }
 
 .input-group .form-control {
 	background-color: #f6fafb;
-	border-right: none;
 	border: none;
+	font-size: 18px;
+	padding: 15px;
+}
+
+.input-group .form-control:hover {
+	background: gray;
 }
 
 .input-group .input-group-text {
@@ -1227,14 +1333,9 @@ input[type=number]{
 	border-bottom: 1px solid #deecf0;
 }
 
-.nav-link {
-	border: none;
-	padding: .5rem 0;
-	margin-right: 1.5rem;
-}
-
-.nav-link:hover {
-	color: #000;
+.heading-banner .nav-link {
+	font-weight: 600;
+	padding: 0;
 }
 
 .nav-tabs .nav-link.active {
@@ -1248,12 +1349,12 @@ input[type=number]{
 
 .nav-tabs .nav-link {
 	border: none;
+	margin-right: 50px;
+	font-size: 20px;
 }
 
 .pages-description ul li {
 	display: inline-block;
-	/*margin-right: 35px;*/
-	/*margin-bottom: 15px;*/
 }
 
 .pages-description ul li a {

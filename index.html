@@ -4,28 +4,32 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>GroxiStore - online Grocesaray Store</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/all.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
-	<div class="header-area">
+	<section class="header-area">
 		<div class="header-area-bg">
 			<img src="images/banner-bg-img.png" alt="">
 		</div>
 
 		<div class="container">
-			<div class="row heading-banner pt-4">
-				<div class="col-6 col-lg-3 col-sm-3">
+			<div class="row heading-banner">
+				<div class="col-6 col-lg-2 col-sm-3">
 					<div class="header-logo">
-						<img src="images/header-logo.jpg" alt="">
+						<a href="index.html"><img src="images/header-logo.jpg" alt=""></a>
 					</div>
 				</div>
-				<div class="col-6 col-lg-8 col-xl-6 col-sm-3">
-					<nav class="navbar navbar-expand-lg navbar-light header-menu">
+				<div class="col-6 col-lg-7 col-sm-3">
+					<nav class="navbar navbar-expand-lg navbar-light float-end header-menu">
 					  <div>
 					    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					      <span class="navbar-toggler-icon"></span>
@@ -48,7 +52,7 @@
 					          <a class="nav-link" href="blog.html">Blog</a>
 					        </li>
 					        <li>
-					          <a class="nav-link" href="contact.html">Contact</a>
+					          <a class="nav-link me-0" href="contact.html">Contact</a>
 					        </li>
 					      </ul>
 					    </div>
@@ -58,25 +62,21 @@
 
 				<div class="d-none d-sm-block d-lg-none d-xl-block col-lg-3 col-sm-6">
 					<div class="header-icon">
-						<ul>
-							<li><i class="fa fa-search" aria-hidden="true"></i></li>
-							<li><i class="fa fa-user" aria-hidden="true"></i></li>
-							<li><i class="fa fa-heart" aria-hidden="true"></i></li>
-							<li><i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
+						<ul class="float-end">
+							<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
 				</div>
-
-
-
 			</div>
 
 			<div class="row">
-				<div class="col-md-10 col-lg-8 col-sm-7 header-left">
+				<div class="col-md-10 col-lg-6 col-sm-7 header-left">
 					<h6>Welcome To Our Grocery Store</h6>
 					<h2>Shop Online For Fresh Grocries</h2>
 					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
 
 					<div class="col-12">						
 						<button class="header-left-btn">SHOP NOW</button>
@@ -85,60 +85,77 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<!-- ################################################################## -->
 
-	<div class="container products">
+	<section class="container products">
 		<div class="row">
 			<div class="col-lg-4 col-sm-12 col-md-12 col-10 offset-1 offset-sm-0">
-				<div class="categories cat-one">
-					<div class="inner-text">
-						<h4>Get Every Vegetable You Need</h4>
-						<button>Shop Now</button>
+				<div class="cat-one">
+					<div class="row inner-text">
+						<div class="col-6">
+							<h4>Get Every Vegetable You Need</h4>
+							<button>SHOP NOW <i class="fas fa-arrow-right"></i></button>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="col-lg-4 col-sm-12 col-md-12 col-10 offset-1 offset-sm-0">
-				<div class="categories cat-two">
-					<div class="inner-text">
-						<h4>We Have Best Beverages Collection</h4>
-						<button>Shop Now</button>
+				<div class="cat-two">
+					<div class="row inner-text">
+						<div class="col-6">
+							<h4>We Have Best Beverages Collection</h4>
+							<button>SHOP NOW <i class="fas fa-arrow-right"></i></button>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="col-lg-4 col-sm-12 col-md-12 col-10 offset-1 offset-sm-0">
-				<div class="categories cat-three">
-					<div class="inner-text">
-						<h4>Beauty <br>And Health Products</h4>
-						<button>Shop Now</button>
+				<div class="cat-three">
+					<div class="row inner-text">
+						<div class="col-6">
+							<h4>Beauty <br>And Health Products</h4>
+							<button>SHOP NOW <i class="fas fa-arrow-right"></i></button>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<!-- ############################################# -->
 
-	<div class="container trading-products text-center">
-		<div class="trading-banner">
-			<h6>Most Popular</h6>
-			<h2>Treding Products</h2>
+	<section class="container trading-products text-center">
+		<div class="row">
+			<div class="col">
+				<div class="trading-banner">
+					<h6>Most Popular</h6>
+					<h2>Treding Products</h2>
+				</div>
+			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
 				<div class="trading-products-bg">
 					<div class="trading-products-img">
-						<a href="#"><i class="fas fa-heart"></i><span class="badge"></span></i></a>
-						<img src="images/trading-product05.png" alt="">
+						<div class="badge">
+							<span>Hot</span>
+						</div>
+						<div class="wishlist">
+							<a href="#"><i class="fas fa-heart"></i></a>
+						</div>
+						<div class="products-img">
+							<img src="images/trading-product05.png" alt="">
+						</div>
 					</div>
 					<ul>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star " aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
 						<li><i class="far fa-star"></i></li>
 						<li><i class="far fa-star"></i></li>
 					</ul>
@@ -151,13 +168,17 @@
 			<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
 				<div class="trading-products-bg">
 					<div class="trading-products-img">
-						<a href="#"><i class="fas fa-heart"></i><span class="badge"></span></i></a>
-						<img src="images/trading-product05.png" alt="">
+						<div class="wishlist">
+							<a href="#"><i class="fas fa-heart"></i></a>
+						</div>
+						<div class="products-img">
+							<img src="images/trading-product05.png" alt="">
+						</div>
 					</div>
 					<ul>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
 						<li><i class="far fa-star"></i></li>
 						<li><i class="far fa-star"></i></li>
 					</ul>
@@ -171,13 +192,17 @@
 			<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
 				<div class="trading-products-bg">
 					<div class="trading-products-img">
-						<a href="#"><i class="fas fa-heart"></i><span class="badge"></span></i></a>
-						<img src="images/trading-product04.png" alt="">
+						<div class="wishlist">
+							<a href="#"><i class="fas fa-heart"></i></a>
+						</div>
+						<div class="products-img">
+							<img src="images/trading-product04.png" alt="">
+						</div>
 					</div>
 					<ul>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
 						<li><i class="far fa-star"></i></li>
 						<li><i class="far fa-star"></i></li>
 					</ul>
@@ -191,13 +216,17 @@
 			<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
 				<div class="trading-products-bg">
 					<div class="trading-products-img">
-						<a href="#"><i class="fas fa-heart"></i><span class="badge"></span></i></a>
-						<img src="images/trading-product05.png" alt="">
+						<div class="wishlist">
+							<a href="#"><i class="fas fa-heart"></i></a>
+						</div>
+						<div class="products-img">
+							<img src="images/trading-product05.png" alt="">
+						</div>
 					</div>
 					<ul>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
 						<li><i class="far fa-star"></i></li>
 						<li><i class="far fa-star"></i></li>
 					</ul>
@@ -211,13 +240,17 @@
 			<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
 				<div class="trading-products-bg">
 					<div class="trading-products-img">
-						<a href="#"><i class="fas fa-heart"></i><span class="badge"></span></i></a>
-						<img src="images/trading-product05.png" alt="">
+						<div class="wishlist">
+							<a href="#"><i class="fas fa-heart"></i></a>
+						</div>
+						<div class="products-img">
+							<img src="images/trading-product05.png" alt="">
+						</div>
 					</div>
 					<ul>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
 						<li><i class="far fa-star"></i></li>
 						<li><i class="far fa-star"></i></li>
 					</ul>
@@ -230,13 +263,20 @@
 			<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
 				<div class="trading-products-bg">
 					<div class="trading-products-img">
-						<a href="#"><i class="fas fa-heart"></i><span class="badge"></span></i></a>
-						<img src="images/trading-product04.png" alt="">
+						<div class="badge">
+							<span>Hot</span>
+						</div>
+						<div class="wishlist">
+							<a href="#"><i class="fas fa-heart"></i></a>
+						</div>
+						<div class="products-img">
+							<img src="images/trading-product04.png" alt="">
+						</div>
 					</div>
 					<ul>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-						<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
 						<li><i class="far fa-star"></i></li>
 						<li><i class="far fa-star"></i></li>
 					</ul>
@@ -246,15 +286,17 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<!-- ################################################################################### -->
 
-	<div class="container">
-		<div class="row offer-area m-0">
-			<div class="col-lg-4 col-sm-12 p-0">
-				<h1><span>50%</span> OFF</h1>
-				<button>SHOP NOW <i class="fas fa-arrow-right"></i></button>
+	<section class="container">
+		<div class="row offer-area">
+			<div class="col-lg-4 col-sm-12">
+				<div class="offers">
+					<h1><span>50%</span> OFF</h1>
+					<button>SHOP NOW <i class="fas fa-arrow-right"></i></button>
+				</div>
 			</div>
 
 			<div class="col-lg-5 col-sm-12 p-0">
@@ -265,11 +307,14 @@
 				<img src="images/trading.png" alt="">
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<!-- ####################################################################### -->
 
-	<div class="about-area">
+	<section class="about-area">
+		<div class="about-area-bg">
+			<img src="images/about-area-bg.png" alt="">
+		</div>
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-lg-6 offset-lg-6">
@@ -284,11 +329,11 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<!-- ######################################################### -->
 
-	<div class="container text-center features-area">
+	<section class="container text-center features-area">
 		<div class="row">
 			<div class="col-8 offset-2 offset-sm-0 col-lg-3 col-sm-12 d-sm-flex d-lg-block">
 				<div class="row">
@@ -329,150 +374,627 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<!-- ########################################################### -->
 
-	<div class="features-products text-center">
-		<div class="container trading-products">
-			<h6>Best Seller</h6>
-			<h1>Featured Products</h1>
-			<ul>
-				<li><a class="active" href="">All</a></li>
-				<li><a href="">Food</a></li>
-				<li><a href="">Fruits</a></li>
-				<li><a href="">Helth</a></li>
-				<li><a href="">Meat</a></li>
-				<li><a href="">Dairy</a></li>
-			</ul>
-			
+	<section class="trading-products text-center featured-products">
+		<div class="featured-bg-img">
+			<img src="images/about-area-rotate.png" alt="">
+		</div>
+
+		<div class="container">
 			<div class="row">
-				<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
-					<div class="features-products-bg">
-						<div class="features-products-img">
-							<a href="#"><i class="fas fa-heart"></i></i></a>
-							<img src="images/bread.png" alt="">
-						</div>
-
-						<ul>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="far fa-star"></i></li>
-							<li><i class="far fa-star"></i></li>
-						</ul>
-						<h2>Beef Steak</h2>
-						<p><del>$15</del> $12</p>
-						<button>ADD TO CART</button>
+				<div class="col">
+					<div class="trading-banner">
+						<h6>Most Popular</h6>
+						<h2>Treding Products</h2>
 					</div>
 				</div>
+			</div>
 
-				<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
-					<div class="features-products-bg">
-						<div class="features-products-img">
-							<a href="#"><i class="fas fa-heart"></i><span class="badge"></span></i></a>
-							<img src="images/chili.png" alt="">
+			<div class="row">
+				<div class="col">
+					<ul class="nav nav-tabs  justify-content-center" id="myTab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all" aria-selected="true">All</button>
+						</li>
+
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="food-tab" data-bs-toggle="tab" data-bs-target="#food" type="button" role="tab" aria-controls="food" aria-selected="true">Food</button>
+						</li>
+
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="fruits-tab" data-bs-toggle="tab" data-bs-target="#fruits" type="button" role="tab" aria-controls="fruits" aria-selected="true">Fruits</button>
+						</li>
+
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="helth-tab" data-bs-toggle="tab" data-bs-target="#helth" type="button" role="tab" aria-controls="helth" aria-selected="true">Helth</button>
+						</li>
+
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="meat-tab" data-bs-toggle="tab" data-bs-target="#meat" type="button" role="tab" aria-controls="meat" aria-selected="false">Meat</button>
+						</li>
+
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="dairy-tab" data-bs-toggle="tab" data-bs-target="#dairy" type="button" role="tab" aria-controls="dairy" aria-selected="false">Dairy</button>
+						</li>
+					</ul>
+
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+							<div class="row">
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/bread.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+				
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="badge">
+												<span>Hot</span>
+											</div>
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/chili.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$20</del> $15</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+				
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/chili.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$30</del> $20</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+							
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="badge">
+												<span>Hot</span>
+											</div>
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/dozen-eggs.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+				
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="badge">
+												<span>Hot</span>
+											</div>
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/cooking-oil.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$20</del> $15</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+				
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/body-lotion.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$30</del> $20</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+							</div>
 						</div>
 
-						<ul>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="far fa-star"></i></li>
-							<li><i class="far fa-star"></i></li>
-						</ul>
-						<h2>Beef Steak</h2>
-						<p><del>$20</del> $15</p>
-						<button>ADD TO CART</button>
-					</div>
-				</div>
+						<div class="tab-pane fade" id="food" role="tabpanel" aria-labelledby="food-tab">
+							<div class="row">
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="badge">
+												<span>Hot</span>
+											</div>
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
 
-				<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
-					<div class="features-products-bg">
-						<div class="features-products-img">
-							<a href="#"><i class="fas fa-heart"></i><span class="badge"></span></i></a>
-							<img src="images/chili.png" alt="">
+											<div class="products-img">
+												<img src="images/bread.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="badge">
+												<span>Hot</span>
+											</div>
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/bread.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/bread.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+							</div>
 						</div>
 
-						<ul>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="far fa-star"></i></li>
-							<li><i class="far fa-star"></i></li>
-						</ul>
-						<h2>Beef Steak</h2>
-						<p><del>$30</del> $20</p>
-						<button>ADD TO CART</button>
-					</div>
-				</div>
-			
-				<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
-					<div class="features-products-bg">
-						<div class="features-products-img">
-							<a href="#"><i class="fas fa-heart"></i><span class="badge"></span></i></a>
-							<img src="images/dozen-eggs.png" alt="">
+						<div class="tab-pane fade text-center" id="fruits" role="tabpanel" aria-labelledby="fruits-tab">
+							<div class="row">
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/trading-product03.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/trading-product03.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/trading-product03.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+							</div>
 						</div>
 
-						<ul>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="far fa-star"></i></li>
-							<li><i class="far fa-star"></i></li>
-						</ul>
-						<h2>Beef Steak</h2>
-						<p><del>$15</del> $12</p>
-						<button>ADD TO CART</button>
-					</div>
-				</div>
+						<div class="tab-pane fade text-center" id="helth" role="tabpanel" aria-labelledby="helth-tab">
+							<div class="row">
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
 
-				<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
-					<div class="features-products-bg">
-						<div class="features-products-img">
-							<a href="#"><i class="fas fa-heart"></i><span class="badge"></span></i></a>
-							<img src="images/cooking-oil.png" alt="">
+											<div class="products-img">
+												<img src="images/orange.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/orange.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/orange.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+							</div>
 						</div>
 
-						<ul>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="far fa-star"></i></li>
-							<li><i class="far fa-star"></i></li>
-						</ul>
-						<h2>Beef Steak</h2>
-						<p><del>$20</del> $15</p>
-						<button>ADD TO CART</button>
-					</div>
-				</div>
+						<div class="tab-pane fade text-center" id="meat" role="tabpanel" aria-labelledby="meat-tab">
+							<div class="row">
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
 
-				<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
-					<div class="features-products-bg">
-						<div class="features-products-img">
-							<a href="#"><i class="fas fa-heart"></i><span class="badge"></span></i></a>
-							<img src="images/body-lotion.png" alt="">
+											<div class="products-img">
+												<img src="images/trading-product01.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/trading-product01.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/trading-product01.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+							</div>
 						</div>
 
-						<ul>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="far fa-star"></i></li>
-							<li><i class="far fa-star"></i></li>
-						</ul>
-						<h2>Beef Steak</h2>
-						<p><del>$30</del> $20</p>
-						<button>ADD TO CART</button>
+						<div class="tab-pane fade text-center" id="dairy" role"tabpanel" aria-labelledby="dairy-tab">
+							<div class="row">
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/trading-product05.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/trading-product05.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+
+								<div class="col-8 offset-2 offset-sm-0 col-lg-4 col-sm-6">
+									<div class="trading-products-bg bg-white">
+										<div class="trading-products-img">
+											<div class="wishlist">
+												<a href="#"><i class="fas fa-heart"></i></a>
+											</div>
+
+											<div class="products-img">
+												<img src="images/trading-product05.png" alt="">
+											</div>
+										</div>
+				
+										<ul>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="fa fa-star" aria-hidden="true"></i></li>
+											<li><i class="far fa-star"></i></li>
+											<li><i class="far fa-star"></i></li>
+										</ul>
+										<h2>Beef Steak</h2>
+										<p><del>$15</del> $12</p>
+										<button>ADD TO CART</button>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
+
 
 	<!-- ################################################################# -->
 
-	<div class="testimonial-area">
+	<section class="testimonial-area">
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
@@ -482,33 +1004,103 @@
 			</div>
 
 			<div class="row">
-				<div class="col-lg-6 col-sm-12">
-					<div class="testimonial-area1">
-						<img src="images/colon.png" alt="">
-						<p>”Quisquam est, qui dolorem ipsum quia dolor sit consectetur adipisci velit sed quia non numqua eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem repudia sint et molestiae”</p>
-						<ul>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-						</ul>
-						<h5>Alina Parker <span>Ceo, GTD</span></h5>
-					</div>
-				</div>
+				<div class="col">
+					<div class="owl-carousel owl-theme">
+						<div class="row items">
+							<div class="col-lg-6">
+								<div class="testimonial-area-inner">
+									<img src="images/colon.png" alt="#">
+									<p>”Quisquam est, qui dolorem ipsum quia dolor sit consectetur adipisci velit sed quia non numqua eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem repudia sint et molestiae”</p>
+									<ul>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+									</ul>
+									<h5>Alina Parker <span>Ceo, GTD</span></h5>
+								</div>
+							</div>
+			
+							<div class="col-lg-6">
+								<div class="testimonial-area-inner">
+									<img src="images/colon.png" alt="#">
+									<p>”Exercitationem ullam corporis suscipit laborio nisi ut aliquid ex ea commodi consequatur uis autem vel eum iure reprehenderit qui in ea vou velit esse quam nihil molestiae consequatur,vel illum qui dolorem eum fugiat”</p>
+									<ul>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+									</ul>
+									<h5>Kevin Andrew<span> Meneger, Rex</span></h5>
+								</div>
+							</div>
+						</div>
 
-				<div class="col-lg-6 col-sm-12">
-					<div class="testimonial-area1">
-						<img src="images/colon.png" alt="">
-						<p>”Exercitationem ullam corporis suscipit laborio nisi ut aliquid ex ea commodi consequatur uis autem vel eum iure reprehenderit qui in ea vou velit esse quam nihil molestiae consequatur,vel illum qui dolorem eum fugiat”</p>
-						<ul>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-							<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
-						</ul>
-						<h5>Kevin Andrew<span> Meneger, Rex</span></h5>
+						<div class="row items">
+							<div class="col-lg-6">
+								<div class="testimonial-area-inner">
+									<img src="images/colon.png" alt="#">
+									<p>”Quisquam est, qui dolorem ipsum quia dolor sit consectetur adipisci velit sed quia non numqua eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem repudia sint et molestiae”</p>
+									<ul>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+									</ul>
+									<h5>Alina Parker <span>Ceo, GTD</span></h5>
+								</div>
+							</div>
+			
+							<div class="col-lg-6">
+								<div class="testimonial-area-inner">
+									<img src="images/colon.png" alt="#">
+									<p>”Exercitationem ullam corporis suscipit laborio nisi ut aliquid ex ea commodi consequatur uis autem vel eum iure reprehenderit qui in ea vou velit esse quam nihil molestiae consequatur,vel illum qui dolorem eum fugiat”</p>
+									<ul>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+									</ul>
+									<h5>Kevin Andrew<span> Meneger, Rex</span></h5>
+								</div>
+							</div>
+						</div>
+
+						<div class="row items">
+							<div class="col-lg-6">
+								<div class="testimonial-area-inner">
+									<img src="images/colon.png" alt="#">
+									<p>”Quisquam est, qui dolorem ipsum quia dolor sit consectetur adipisci velit sed quia non numqua eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem repudia sint et molestiae”</p>
+									<ul>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+									</ul>
+									<h5>Alina Parker <span>Ceo, GTD</span></h5>
+								</div>
+							</div>
+			
+							<div class="col-lg-6">
+								<div class="testimonial-area-inner">
+									<img src="images/colon.png" alt="#">
+									<p>”Exercitationem ullam corporis suscipit laborio nisi ut aliquid ex ea commodi consequatur uis autem vel eum iure reprehenderit qui in ea vou velit esse quam nihil molestiae consequatur,vel illum qui dolorem eum fugiat”</p>
+									<ul>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+										<li><i class="fa fa-star orange" aria-hidden="true"></i></li>
+									</ul>
+									<h5>Kevin Andrew<span> Meneger, Rex</span></h5>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -537,89 +1129,82 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<!-- #################################################################### -->
 
-	<div class="subscribe-area">
+	<section class="subscribe-area">
 		<img class="d-none d-sm-flex" src="images/subcribe-img.png" alt="">
 
 		<div class="container subscribe">
 			<div class="row">
-				<div class="col-lg-4 col-sm-12"></div>	
-				<div class="col-lg-8 col-sm-12">
+				<div class="col-lg-1 col-sm-12"></div>	
+				<div class="col-lg-11 col-sm-12">
 					<h2>Subscribe To Newslatter</h2>	
 					<input type="email" placeholder="Enter Your Email Address">	
 					<input type="submit" value="SUBSCRIBE NOW">	
 				</div>
 			</div>	
 		</div>
-	</div>
+	</section>
 
 	<!-- ################################################################## -->
 
 
-	<div class="footer">
+	<section class="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-6 col-lg-3 col-sm-6">
-					<div class="footer-box m-0">
-						<h2>Store Location</h2>
-						<h5>Address:</h5>
-						<h6>121 King Street Melbourne,3000, Australia</h6>
-						<h5>Email:</h5>
-						<h6>info@groxistore.com</h6>
-						<h5>Phone:</h5>
-						<h6>+1 23 45 6789</h6>
-					</div>
+					<h2>Store Location</h2>
+					<h5>Address:</h5>
+					<h6>121 King Street Melbourne,3000, Australia</h6>
+					<h5>Email:</h5>
+					<h6><a href="info@groxistore.com">info@groxistore.com</a></h6>
+					<h5>Phone:</h5>
+					<a href="tel:+1 23 456 789">+1 23 456 789</a>
 				</div>
 
-				<div class="col-6 col-lg-3 col-sm-6">
-					<div class="footer-box footer-right">
-						<h2>Useful Links</h2>
-						<ul>
-							<li>About Us</li>
-							<li>Blog</li>
-							<li>Cheak Out</li>
-							<li>Contact</li>
-							<li>Service</li>
-							<li>Shop</li>
-						</ul>
-					</div>
+				<div class="col-6 col-lg-3 col-sm-6 footer-box">
+					<h2>Useful Links</h2>
+					<ul>
+						<li><a href="index.html">About Us</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="#">Cheak Out</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="#">Service</a></li>
+						<li><a href="shop.html">Shop</a></li>
+					</ul>
+				</div>
+				
+
+				<div class="col-6 col-lg-3 col-sm-6 footer-box">
+					<h2>Categories</h2>
+					<ul>
+						<li><a href="#">Fruit & Vegatables</a></li>
+						<li><a href="#">Daily Products</a></li>
+						<li><a href="#">Packeg Foods</a></li>
+						<li><a href="#">Beverage</a></li>
+						<li><a href="#">Helth & Wellness</a></li>
+						<li><a href="#">Meat Varieties</a></li>
+					</ul>
 				</div>
 
-				<div class="col-6 col-lg-3 col-sm-6">
-					<div class="footer-box">
-						<h2>Categories</h2>
-						<ul>
-							<li>Fruit & Vegatables</li>
-							<li>Daily Products</li>
-							<li>Packeg Foods</li>
-							<li>Beverage</li>
-							<li>Helth & Wellness</li>
-							<li>Meat Varieties</li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="col-6 col-lg-3 col-sm-6">
-					<div class="footer-box footer-right">
-						<h2>Opening Hours</h2>
-						<h5>Monday-Suterday</h5>
-						<h6>12:00-14:45</h6>
-						<h5>Sunday-Thursday</h5>
-						<h6>17:30-00-00</h6>
-						<h5>Friday-Suterday</h5>
-						<h6>17:30-00:00</h6>
-					</div>
+				<div class="col-6 col-lg-3 col-sm-6 footer-box">
+					<h2>Opening Hours</h2>
+					<h5>Monday-Suterday</h5>
+					<h6>12:00-14:45</h6>
+					<h5>Sunday-Thursday</h5>
+					<h6>17:30-00:00</h6>
+					<h5>Friday-Suterday</h5>
+					<h6>17:30-00:00</h6>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<!-- ########################################################################## -->
 
-	<div class="copyright">
+	<section class="copyright">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7 col-sm-12">
@@ -638,38 +1223,21 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
-	<!-- <div style="background: lightblue; width: 1140px; margin: 50px auto;">
-		<form>
-			<label for="name">Enter your name</label>
-			<input type="text" id="name" placeholder="Text Input Type" required><br>
-			<input type="email" placeholder="Email Input Type"><br>
-			<input type="password" placeholder="Password Input Type"><br>
-			Your Hobby <br> <label><input type="checkbox" checked>Reading</label><br>
-			<label><input type="checkbox"> Travelling</label><br><br><br>
-
-
-
-			<h4>Choose your gender</h4>
-			<label><input type="radio" name="gender" checked="checked"> Male</label><br>
-			<label><input type="radio" name="gender"> Female</label><br>
-			<label><input type="radio" name="gender"> Transgender</label>
-
-			<br>
-			<input type="color">
-			<br>
-			<input type="file"><br>
-			<input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
-			<input type="file">
-
-
-
-			<br><br><br>
-			<input type="submit" value="Subscribe Now">
-		</form>
-	</div> -->
-
-	<script src="js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                items: 1,
+				autoplay : true,
+				autoplayTimeout : 2000,
+				dots : false,
+				loop : true,
+            });
+        });
+    </script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
 </body>
 </html>
