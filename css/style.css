@@ -1,4 +1,5 @@
 
+
 @font-face {
   font-family: Barlow-Regular;
   src: url(../fonts/Barlow-Regular.ttf);
@@ -56,9 +57,9 @@ body {
 	margin: 0 auto;
 }
 
-/* img {
+img {
 	max-width: 100%;
-} */
+}
 
 a {
 	text-decoration: none;
@@ -95,7 +96,6 @@ ul {
 .header-left {
 	padding: 240px 0;
 }
-
 
 .header-area h6 {
 	font-family: Jost-Medium;
@@ -152,10 +152,6 @@ ul {
 	border: 1px solid #14462e;
 	transition: .5s;
 }
-
-/*.header-logo img {
-	width: 50%;
-}*/
 
 .header-menu {
 	justify-content: flex-end;
@@ -253,16 +249,15 @@ ul {
 }*/
 
 .products {
-	padding-top: 140px;
-	padding-bottom: 140px;
+	margin-top: 140px;
+	margin-bottom: 140px;
 	color: white;
 }
 
 .products h2 {
 	font-size: 23px;
- 	 font-family: 'Jost-Regular';
+ 	font-family: 'Jost-Regular';
 }
-
 
 .products button {
 	text-transform: none;
@@ -278,17 +273,9 @@ ul {
 	margin-left: 10px;
 }
 
-/*#####################################################*/
-
-/* .trading-products {
-	margin-bottom: 140px;
-} */
-
-/* .trading-products ul {
-	padding-left: 0;
-	padding-bottom: 15px;
-	margin: 0;
-} */
+.products-img {
+	padding-top: 65px;
+}
 
 .trading-products ul li {
 	display: inline-block;
@@ -297,11 +284,11 @@ ul {
 
 .trading-products-bg {
 	background-color: #f6fafb;
-	margin-bottom: 25px;
 	border: 1px solid transparent;
+	margin: 0px 5px 30px;
 }
 
-.trading-products-bg ul li i {
+.rating li i {
 	font-size: 15px;
 	color: #fccc42;
 	margin-bottom: 20px;
@@ -410,15 +397,8 @@ ul {
     margin-bottom: 50px;
 }
 
-.products-img {
-	padding-top: 65px;
-}
-
-/*##################################################################################*/
-
-
 .offers {
-	padding: 55px;
+	padding: 30px 0px 30px 45px;
 }
 
 .offer-area {
@@ -447,7 +427,7 @@ ul {
 .offer-area h2 {
 	color: white;
 	font-size: 46px;
-	margin: 55px 0px;
+	margin: 40px 0px;
 	font-family: Jost-Medium;
 }
 
@@ -503,8 +483,8 @@ ul {
 
 
 .features-area {
-	padding-top: 140px;
-	padding-bottom: 140px;
+	margin-top: 140px;
+	margin-bottom: 140px;
 }
 
 .features-area h4 {
@@ -675,7 +655,7 @@ input[type=submit] {
 }
 
 .subscribe-area img {
-	margin-left: 160px;
+	margin-left: 65px;
     margin-bottom: 0;
     margin-top: -200px;
     float: left;
@@ -686,8 +666,8 @@ input[type=submit] {
 .footer {
 	background-color: #14462e;
 	color: #4a8066;
-	margin-top: -5%;
-	padding-top: 12%;
+	margin-top: -130px;
+	padding-top: 220px;
 	border-bottom: 1px solid #4a8066;
 	padding-bottom: 50px;
 }
@@ -737,11 +717,8 @@ input[type=submit] {
 .copyright {
 	color: #4a8066;
 	background-color: #14462e;
-	padding-top: 15px;
-}
-
-.copyright p {
-	padding-top: 5px;
+	padding-top: 35px;
+	padding-bottom: 20px;
 }
 
 .copyright ul {
@@ -754,10 +731,6 @@ input[type=submit] {
 .copyright ul li {
 	display: inline-block;
 	margin: 0 10px;
-}
-
-.copyright span {
-	padding-left: 150px;
 }
 
 .copyright a {
@@ -819,15 +792,15 @@ input[type=submit] {
 
 
 .grocery-img img {
-	margin-left: -10%;
+	margin-left: -50px;
 }
 
 .grocery-area {
-	padding-top: 5%;
+	padding-top: 140px;
 }
 
 .grocery-text {
-	padding-top: 8%;
+	padding-top: 140px;
 }
 
 .grocery-text h2 {
@@ -945,8 +918,8 @@ input[type=submit] {
 
 .shop-checkbox-categories {
 	border: 1px solid #deecf0;
-	padding: 15px 30px;
-	/*height: 480px;*/
+	padding: 20px;
+	margin-bottom: 30px;
 }
 
 .shop-checkbox-categories h2 {
@@ -956,12 +929,13 @@ input[type=submit] {
 }
 
 .shop-features-area {
-	padding-top: 7%;
+	margin-top: 140px;
+	margin-bottom: 140px;
 }
 
 .shop-filter-price {
 	border: 1px solid #deecf0;
-	margin: 15px 0;
+	margin-bottom: 30px;
 	padding: 20px;
 }
 
@@ -1012,7 +986,6 @@ input[type=submit] {
 
 .shop-trading-text ul li {
 	display: inline-block;
-	font-size: 10px;
 	padding: 0;
 	margin: 0;
 }
@@ -1033,6 +1006,7 @@ input[type=submit] {
 	margin-left: 20px;
 	padding: 10px 15px;
 	color: limegreen;
+	margin-bottom: 23px;
 }
 
 .shop-filter-price h2 {
@@ -1169,6 +1143,16 @@ label {
 /*################################################################################################################################################################################################################*/
 
 
+.groxi-pages-area {
+	background-image: url(../images/about-banner-bg.png);
+	background-size: cover;
+	background-repeat: round;
+}
+
+.pages-related-product {
+	margin-bottom: 140px;
+}
+
 .pages-product ul {
 	padding: 0;
 	display: inline-block;
@@ -1249,49 +1233,55 @@ label {
 
 .slider-product-details h3 {
 	font-family: 'Jost-Medium';
-  padding-top: 20px;
+	font-size: 24px;
+	margin-top: 30px;
 }
 
 
 input[type=button]{
-	padding: 5px 10px;
 	border: 1px solid #deecf0;
-  background: white;
+  	background: white;
+	height: 35px;
+	width: 35px;
+	font-size: 18px;
 }
 
 input[type=number]{
-	padding: 5px;
 	border: 1px solid #deecf0;
-  border-right: none;
-  border-left: none;
-  width: 100px;
-  text-align: center;
-  font-family: 'Barlow-Regular';
+	height: 35px;
+	margin: -5px;
+	width: 100px;
+	text-align: center;
+	font-family: 'Barlow-Regular';
 }
 
 .slider-product-details button {
 	padding: 8px 35px;
-  font-size: 13px;
-  color: white;
-  background: black;
-  border: none;
-  font-family: 'Barlow-Bold';
-  margin-left: -12px;
+	font-size: 13px;
+	color: white;
+	background: black;
+	border: none;
+	font-family: 'Barlow-Bold';
+	margin-left: -12px;
 }
 
 .slider-product-details p {
 	font-size: 20px;
-  color: #6c6c6c;
-  font-family: 'Barlow-Light';
+	color: #6c6c6c;
+	font-family: 'Barlow-Light';
+}
+
+.tab-pane p {
+	font-size: 20px;
 }
 
 
 /*###############################################################################*/
 
 .product-share span {
-	font-family: 'Jost-Bold';
-  font-size: 25px;
-  padding-right: 20px;
+	font-family: 'Jost-Medium';
+	font-size: 24px;
+	margin-right: 15px;
 }
 
 .product-share ul li i {
@@ -1319,7 +1309,8 @@ input[type=number]{
 }
 
 .pages-product {
-	padding-bottom:80px;
+	margin-top: 140px;
+	margin-bottom: 90px;
 }
 
 /*###############################################################################*/
@@ -1351,6 +1342,9 @@ input[type=number]{
 	border: none;
 	margin-right: 50px;
 	font-size: 20px;
+	padding: 0;
+	padding-bottom: 10px;
+	font-family: jost-medium;
 }
 
 .pages-description ul li {
@@ -1359,9 +1353,9 @@ input[type=number]{
 
 .pages-description ul li a {
 	text-decoration: none;
-  font-family: 'Jost-SemiBold';
-  font-size: 20px;
-  color: black;
+	font-family: 'Jost-SemiBold';
+	font-size: 20px;
+	color: black;
 }
 
 /*.pages-description ul li a:hover {
@@ -1375,16 +1369,9 @@ input[type=number]{
 	line-height: 28px;
 }
 
-/*###########################################################3*/
-
-
-.pages-related-product {
-	text-align: center;
-}
-
 .pages-related-product h1 {
 	font-family: 'jost-semibold';
-	padding-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .pages-related-product ul {
@@ -1400,16 +1387,23 @@ input[type=number]{
 	color: white;
 }
 
+.review {
+	margin-bottom: 90px;
+}
 
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 
 							/*Groxi-Store-Blog*/
 
-
+.groxi-blog-area {
+	background-image: url(../images/about-banner-bg.png);
+	background-size: cover;
+}
 
 .blog-posts {
-	padding-top: 60px;
+	margin-top: 140px;
+	margin-bottom: 140px;
 }
 
 .blog-post-categories ul {
@@ -1418,7 +1412,7 @@ input[type=number]{
 
 .blog-post-categories {
 	border: 1px solid #deecf0;
-   padding: 15px 30px;
+   	padding: 15px 30px;
 }
 
 .blog-post-img {
@@ -1442,7 +1436,7 @@ input[type=number]{
 .blog-post-contant h4 {
 	font-family: 'jost-semibold';
 	font-size: 23px;
-  line-height: 30px;
+ 	line-height: 30px;
 }
 
 .blog-post-contant p {
@@ -1452,10 +1446,17 @@ input[type=number]{
 
 .blog-post-contant button {
 	padding: 7px 15px;
-  color: white;
-  background: #14462e;
-  border: none;
-  font-family: 'Barlow-semibold';
+	color: white;
+	background: #14462e;
+	border: none;
+	font-family: 'Barlow-semibold';
+	border: 1px solid transparent;
+}
+
+.blog-post-contant button:hover {
+	border: 1px solid #14462e;
+	background-color: white;
+	color: #14462e;
 }
 
 
@@ -1472,8 +1473,13 @@ input[type=number]{
 	text-decoration: none;
 	border: 1px solid #deecf0;
 	padding: 7px 15px;
-  font-family: 'Barlow-Regular';
-  color: dimgray;
+	font-family: 'Barlow-Regular';
+	color: dimgray;
+}
+
+.blog-slider .active {
+	background-color: #9fcb22;
+	color: white !important;
 }
 
 .blog-slider ul li a:hover {
@@ -1503,8 +1509,19 @@ input[type=number]{
 	font-family: 'barlow-light';
 }
 
+.navbar-nav i {
+	color: #a6d523;
+	margin-right: 10px;
+}
+
 /*########################################################################################################################################*/
 
+
+.groxi-contact-area {
+	background-image: url(../images/about-banner-bg.png);
+	background-size: cover;
+	margin-bottom: 140px;
+}
 .contact-from {
 	background-color: #cfeef6;
 	padding: 45px 25px;
@@ -1512,18 +1529,19 @@ input[type=number]{
 
 .contact-reach-us {
 	background-color: #9fcc22;
-	padding: 45px 25px;
+	padding: 45px;
 	color: white;
 }
 
 .contact-from h2 {
 	font-family: jost-semibold;
-	padding-bottom: 10px;
 	font-size: 45px;
+	margin-bottom: 30px;
 }
 
 .contact-reach-us h2 {
 	font-size: 45px;
+	margin-bottom: 30px;
 }
 
 .contact-reach-us p {
@@ -1533,7 +1551,7 @@ input[type=number]{
 
 .contact-reach-us i {
 	font-size: 50px;
-	padding: 20px 15px;
+	padding: 20px 0px;
 }
 
 .contact-reach-us h6 {
@@ -1543,11 +1561,11 @@ input[type=number]{
 
 .contact-from input[type=email], .contact-from input[type=name], .contact-from input[type=phone], .contact-from input[type=address]{
 	width: 100%;
-	padding: 10px;
-	margin-bottom: 10px;
+	padding: 15px;
+	margin-bottom: 20px;
 	border: none;
 	color: gray;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 textarea {
@@ -1559,12 +1577,12 @@ textarea {
 
 .contact-from button {
 	background: #9fcc22;
-  color: white;
-  font-family: 'Barlow-SemiBold';
-  font-size: 15px;
-  border: none;
-  padding: 7px 25px;
-  margin-top: 15px;
+	color: white;
+	font-family: 'Barlow-SemiBold';
+	font-size: 15px;
+	border: none;
+	padding: 20px 45px;
+	margin-top: 25px;
 }
 
 .contact-from button:hover {

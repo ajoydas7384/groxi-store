@@ -1,28 +1,20 @@
 
 /*// Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-
-	.container {
-		width: 90%;
-	}
-	
+@media (max-width: 575.98px) {	
 	.header-area {
-    	background-repeat: no-repeat;
-    	background-position: right;
+    	background-repeat: round;
     	color: white;
+		margin-bottom: 30px;
 	}
 
 	.header-logo img {
 		width: 80%;
 	}
-/*
-	.heading-banner {
-		margin-top: 20px;
-	}*/
 
 	.header-left {
-		padding-bottom: 0;
+		padding-bottom: 30px;
 		text-align: center;
+		padding-top: 30px;
 	}
 
 	.header-left h2 {
@@ -30,11 +22,13 @@
 	}
 
 	.header-left h6 {
-		color: red;
+		color: #9fcb22;
+		font-size: 20px;
 	}
 
 	.header-left p {
-		font-size: 14px;
+		color: gray;
+		font-size: 18px;
 	}
 
 	.header-left-btn {
@@ -46,14 +40,9 @@
 		padding: 10px 30px;
 	}
 
-
-
-	/*################################################*/
-
 	.products {
 		padding: 0;
 	}
-
 
 	.categories {
 		margin: 5px;
@@ -65,32 +54,34 @@
 	}
 
 	.inner-text {
-		/*width: 45%;*/
-		padding: 30px 0 0 30px;
-		/*padding-left: 45px;*/
-		/*padding-top: 35px;*/
+		padding: 30px 0 30px 30px;
+	}
+
+	.inner-text h4 {
+		font-size: 22px;
+		margin-bottom: 20px;
 	}
 
 	.products button {
 		font-size: 12px;
 	}
 
-	.cat-one, .cat-two, .cat-three {
-		height: 200px;
-		background-size: 35%;
+	.cat-one, .cat-two {
+		margin-bottom: 20px;
 	}
 
-
-	/*########################################################*/
+	.trading-products {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
 
 	.trading-products-bg {
-		margin: 10px 0px;
-		height: auto;
+		margin: 0;
+		margin-bottom: 20px;
 	}
 
 	.trading-products-img {
-		padding-top: 11px;
-    	padding-bottom: 0px;
+		margin-bottom: 15px;
 	}
 
 	.trading-products-img img {
@@ -103,8 +94,8 @@
 		padding-bottom: 10px;
 	}
 
-	.trading-products-img a {
-		padding-left: 71%;
+	.trading-products h1 {
+		font-size: 25px;
 	}
 
 	.trading-products h2 {
@@ -113,17 +104,12 @@
 
 	.trading-products p {
 		font-size: 17px;
+		margin-bottom: 15px;
 	}
 
 	.trading-products button {
 		padding: 10px 10px;
 		font-size: 12px;
-	}
-
-	.trading-products-img a i {
-		line-height: 30px;
-    	width: 30px;
-    	height: 30px;
 	}
 
 	.trading-banner h6 {
@@ -134,8 +120,6 @@
 		font-size: 25px;
 	}
 
-	/*###################################################*/
-
 	.offer-area {
 		text-align: center;
 		background-image: url(../images/trading.png);
@@ -143,41 +127,65 @@
     	background-size: cover;
 	}
 
+	.offers {
+		padding: 0;
+		padding-top: 20px;
+	}
+
 	.offer-area h2 {
 		font-size: 25px;
-		padding-top: 0;
-		padding-bottom: 15px;
+		color: white;
 	}
 
-	/*########################################################*/
+	.about-area {
+		margin-top: 30px;
+	}
 
-	.trading-products h1 {
+	.about-text {
+		margin-top: 25px;
+		padding: 25px;
+	}
+
+	.about-text h6 {
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+	
+	.about-text h2 {
 		font-size: 25px;
+		margin-bottom: 15px;
 	}
 
-	.trading-products ul li a {
-		padding: 0px 10px;
+	.about-text p {
+		font-size: 10px;
+	}
+
+	.about-text button {
+		padding: 12px 30px;
+	}
+
+	.features-area  {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.featured-products {
+		padding: 30px 0;
+	}
+
+	.features-area button {
+		padding: 12px 30px;
+		font-size: 12px;
+	}
+
+	.features-item {
+		padding: 0 15px;
+	}
+
+	.features-area p {
 		font-size: 15px;
+		margin-bottom: 20px;
 	}
-
-	/*##########################################################*/
-
-	.features-products-img {
-		padding-top: 11px;
-		padding-bottom: 0px;
-	}
-
-	.features-products-img a {
-		padding-left: 71%;
-	}
-
-	.features-products-img a i {
-		line-height: 30px;
-    	width: 30px;
-    	height: 30px;
-	}
-
-	/*##############################################################*/
 
 	.testimonial-area h2 {
 		font-size: 31px;
@@ -188,8 +196,15 @@
 		height: auto;
 	}
 
-	/*########################################################*/
+	.subscribe {
+		padding: 15px 20px 20px;
+    	margin-top: 25px;
+	}
 
+	.subscribe h2 {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
 
 	.subscribe-area input[type=email] {
 		font-size: 11px;
@@ -200,27 +215,14 @@
 		font-size: 11px;
 	}
 
-	/*#########################################################*/
-
-	.footer {
-		margin-top: 5%;
-	}
-
 	.copyright {
 		text-align: center;
 	}
 
-
-
-
-										/*about-us*/
-
-
-
-
 	.about-us {
 		margin-bottom: 45px;
     	margin-top: 35px;
+		padding: 0px;
 	}
 
 	.about-us ul {
@@ -235,6 +237,10 @@
 
 	.about-us ul li {
 		margin: 0 10px;
+	}
+
+	.about-us ul li a {
+		font-size: 16px;
 	}
 
 	.grocery-area {
@@ -260,6 +266,10 @@
 		font-size: 25px;
 	}
 
+	.our-vision {
+		margin-bottom: 30px;
+	}
+
 	.our-vision, .our-goal {
 		padding: 20px;
 	}
@@ -280,6 +290,7 @@
 
 	.about-video {
 		padding: 130px;
+		background-repeat: round;
 	}
 
 	.about-features-area h2 {
@@ -287,9 +298,9 @@
 		padding-bottom: 15px;
 	}
 
-	/*.features-area img {
-		max-width: 25%;
-	}*/
+	.customer-review {
+		padding: 40px;
+	}
 
 	.coustomer-logo {
 		padding-top: 15px;
@@ -299,24 +310,39 @@
 		margin-bottom: 20px;
 	}
 
+	.testimonial-area p {
+		font-size: 16px;
+	}
+
+	.testimonial-area-inner img {
+		width: 25px !important;
+		height: 25px;
+		margin-bottom: 15px;
+		margin-top: 0;
+	}
+
 	.subscribe-area img {
 		max-width: 40%;
 		margin-bottom: -31%;
 	}
 
 	.footer {
-		padding: 35px 0 15px 0;
+		padding: 40px;
+		margin-top: 20px;
+	}
+
+	.footer-box {
+		padding-left: 0px;
 	}
 
 	.copyright ul {
 		float: none;
 	}
 
-
-	/*############################################################################################################*/
-
-												/*SHOP*/
-
+	.shop-features-area {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 
 	.shop-checkbox-categories {
 		border: none;
@@ -328,12 +354,17 @@
 		border: 1px solid #0dcaf0;
 	}
 
-	.slider-product-details {
-		padding: 0;
+	.pages-product {
+		margin-top: 40px;
+		margin-bottom: 40px;
 	}
 
 	.pages-product ul {
 		margin: 0;
+	}
+
+	.pages-related-product {
+		margin-bottom: 40px;
 	}
 
 	.slider-product-details p {
@@ -341,37 +372,45 @@
 	}
 
 	.nav-tabs .nav-link {
-		font-size: 15px;
+		font-size: 20px;
+		margin-right: 25px;
+	}
+
+	.tab-pane p {
+		font-size: 16px;
+	}
+
+	.review {
+		margin-bottom: 30px;
 	}
 
 	.pages-description ul {
 		margin-bottom: 15px;
 	}
 
-	.shop-trading-text ul li {
+	.rating ul li i {
 		font-size: 8px;
+		margin-bottom: 0;
 	}
 
 	.trading-products-bg button {
 		padding: 6px 12px;
 		font-size: 12px;
+		margin-bottom: 25px;
 	}
 
-
-	/*############################################################################################################*/
-
-
-														/*GROXI-STORE-BLOG-ONLINE*/
-
-
 	.blog-posts {
-		padding: 0;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.blog-slider {
+		margin-bottom: 30px;
 	}
 
 	.shop-trading-img img {
 		width: 85%;
 	}
-
 
 	.shop-trading-text h2 {
 		font-size: 13px;
@@ -390,24 +429,26 @@
 		padding: 0;
 	}
 
+	.testimonial-area-inner {
+		margin-bottom: 30px;
+	}
+
 	.testimonial-area h2 {
     	font-size: 20px;
     	padding-bottom: 5px;
 	}
 
-
 	.blog-post-categories {
 		border: none;
 	}
-
-
-	/*###########################################################################*/
-
 
 	.contact-map {
 		padding: 25px 0;
 	}
 
+	.groxi-contact-area {
+		margin-bottom: 30px;
+	}
 }
 
 /*###############################################################################################################################################################################################################*/
@@ -416,7 +457,6 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.header-area {
 		background-size: cover;
-		background-position: right;
 	}
 
 	.header-logo {
@@ -448,14 +488,12 @@
 		text-align: center;
 	}
 
-	.header-left {
-		/*padding: 0;*/
-		/*text-align: center;*/
-	}
-
 	.header-left h6 {
 		font-size: 20px;
-		padding-bottom: 20px;
+	}
+
+	.header-left {
+		padding: 50px 0;
 	}
 
 	.header-left h2 {
@@ -465,7 +503,6 @@
 	.header-left p {
 		padding: 0;
 		font-size: 15px;
-		padding-bottom: 20px;
 	}
 
 	.header-left-btn {
@@ -478,12 +515,24 @@
 		font-size: 13px;
 	}
 
+	.products {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.cat-one,.cat-two {
+		margin-bottom: 30px;
+	}
 
 	.copyright ul {
 		float: none;
 	}
 
-							/*about-area*/
+	.about-us {
+		margin-top: 40px;
+		margin-bottom: 50px;
+		padding: 20px 0;
+	}
 
 	.about-us ul {
 		padding-top: 5px;
@@ -491,6 +540,14 @@
 
 	.about-us ul li {
 		margin: 5px;
+	}
+
+	.about-us ul li a {
+		font-size: 16px;
+	}
+
+	.about-us h2 {
+		font-size: 35px;
 	}
 
 	.header-area h2 {
@@ -502,16 +559,30 @@
 		max-width: 120%;
 	}
 
+	.grocery-area {
+		padding-top: 40px;
+	}
+
+	.grocery-text  {
+		padding-top: 0;
+	}
+
 	.grocery-text h2 {
 		font-size: 21px;
+		margin-bottom: 10px;
 	}
 
 	.grocery-text p {
-		font-size: 8px;
+		font-size: 10px;
 	}
 
 	.about-video {
 		padding: 130px;
+		background-repeat: round;
+	}
+
+	.customer-review {
+		padding: 40px 0;
 	}
 
 	.video-link a {
@@ -522,30 +593,22 @@
 		padding-top: 15px;
 	}
 
-	/*.testimonial-area {
-		margin: 0;
-	}*/
-
-
-	/*###############################################################################*/
-
 	.categories {
 		margin-bottom: 10px;
 		background-size: 35%;
 	}
 
 	.inner-text {
-		width: 44%;
-		padding-left: 45px;
-		padding-top: 45px;
-		line-height: 40px;
+		padding: 45px;
+	}
+
+	.inner-text h4 {
+		margin-bottom: 15px;
 	}
 
 	.inner-text button {
 		font-size: 15px;
 	}
-
-	/*###############################################################*/
 
 	.trading-banner h6 {
 		font-size: 25px;
@@ -554,14 +617,11 @@
 	.trading-banner h2 {
 		font-size: 30px;
 		padding-bottom: 0;
+		margin-bottom: 30px;
 	}
 
-	.trading-products-img {
-		padding-top: 6px;
-	}
-
-	.trading-products-img a {
-		padding-left: 75%;
+	.trading-products {
+		margin-bottom: 30px;
 	}
 
 	.trading-products-img a i {
@@ -579,7 +639,9 @@
 		padding: 10px 20px;
 	}
 
-	/*###########################################################*/
+	.offers {
+		padding: 0px;
+	}
 
 	.offer-area {
 		text-align: center;
@@ -605,15 +667,22 @@
 	}
 
 	.offer-area h2 {
-		padding-bottom: 15px;
-		padding-top: 30px;
-		font-size: 40px;
+		margin: 0;
+		font-size: 30px;
+		padding-bottom: 30px;
 	}
 
-	/*####################################################################*/
+	.about-area {
+		margin-top: 30px;
+	}
+
+	.about-text {
+		margin-top: 30px;
+		padding: 30px;
+	}
 
 	.about-text h6 {
-		font-size: 14px;
+		font-size: 18px;
 	}
 
 	.about-text h2 {
@@ -629,7 +698,23 @@
 		font-size: 15px;
 	}
 
-	/*#########################################################################*/
+	.blog-posts {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	.blog-slider {
+		margin-bottom: 30px;
+	}
+
+	.features-area {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.features-item {
+		padding: 0px;
+	}
 
 	.features-item h4 {
 		font-size: 25px;
@@ -637,12 +722,17 @@
 
 	.features-item p {
 		font-size: 13px;
+		margin-bottom: 0;
 	}
 
 	.features-area button {
 		padding: 8px 20px;
 		font-size: 15px;
 		margin-bottom: 30px;
+	}
+
+	.featured-products {
+		padding: 30px 0;
 	}
 
 	.features-products h6 {
@@ -653,8 +743,20 @@
 		font-size: 25px;
 	}
 
-	/*#############################################################*/
+	.nav-tabs .nav-link {
+		margin-right: 25px;
+	}
 
+	.testimonial-area-inner img {
+		width: 25px !important;
+		height: 25px;
+		margin-bottom: 20px;
+		margin-top: 0;
+	}
+
+	.testimonial-area p {
+		font-size: 16px;
+	}
 
 	.testimonial-area h6 {
 		font-size: 30px;
@@ -669,7 +771,9 @@
 		margin-top: 20px;
 	}
 
-/*#########################################################*/
+	.testimonial-area-inner {
+		margin-bottom: 30px;
+	}
 
 	.coustomer-logo {
 		padding-top: 45px;
@@ -685,13 +789,25 @@
 		margin-left: 10px;
 	}
 
-	/*##########################################################*/
+	.our-vision, .our-goal {
+		padding: 30px;
+	}
+
+	.our-vision h2, .our-goal h2 {
+		font-size: 35px;
+	}
+
+	.our-goal p, .our-vision p {
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
 
 	.subscribe-area img {
 		width: 100%;
 	    margin-left: 0;
 	    margin-top: -33px;
 	    height: 350px;
+		float: none;
 	}
 
 	.subscribe {
@@ -718,38 +834,20 @@
 		width: 40%;
 	}
 
-	/*########################################################################*/
+	.footer-box {
+		padding-left: 0px;
+	}
 
 	.footer {
-		margin-top: 10px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-
-	.footer-box {
-		float: none;
-	}
-
-	.footer-right {
-		padding-left: 85px;
-	}
-
-	.footer-box h2 {
-		padding-bottom: 10px;
+		margin-top: 0px;
 		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 
 	.copyright {
 		text-align: center;
 		padding-top: 10px;
 	}
-
-
-	/*##############################################################################################################*/
-
-
-						/*SHOP*/
-
 
 	.trading-products-bg {
 		height: auto;
@@ -790,9 +888,15 @@
 		width: 90%;
 	}
 
+	.shop-features-area {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 
-	                                     /*PAGES*/
-
+	.rating ul li i {
+		font-size: 10px;
+		margin-bottom: 0;
+	}
 
 	.slider-product-details p {
 		font-size: 16px;
@@ -803,7 +907,8 @@
 	}
 
 	.pages-product {
-		padding-bottom: 20px;
+		margin-bottom: 40px;
+		margin-top: 40px;
 	}
 
 	.pages-description p {
@@ -814,12 +919,21 @@
 		margin-bottom: 25px;
 	}
 
+	.pages-related-product {
+		margin-bottom: 40px;
+	}
+
+	.tab-pane p {
+		font-size: 18px;
+	}
+
+	.review {
+		margin-bottom: 25px;
+	}
+
 	.trading-products-img img {
 		width: 60%;
 	}
-
-
-	/*#####################################################################################################*/
 
 	.contact-map {
 		padding: 30px 0;
@@ -827,6 +941,10 @@
 
 	.testimonial-area {
 		padding-top: 0;
+	}
+
+	.groxi-contact-area {
+		margin-bottom: 60px;
 	}
 }
 
@@ -836,6 +954,10 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
 	.header-area {
 		background-repeat: round;
+	}
+
+	.header-left {
+		padding: 40px 0;
 	}
 
 	.header-area h2 {
@@ -863,20 +985,51 @@
 		padding-left: 75px;
 	}
 
+	.about-us {
+		margin-top: 60px;
+    	margin-bottom: 70px;
+    	padding: 35px 0px;
+	}
 
-	/*#######################################################################*/
+	.blog-posts {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+
+	.blog-slider {
+		margin-bottom: 30px;
+	}
+
+	.pages-product {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	.review {
+		margin-bottom: 50px;
+	}
+
+	.pages-related-product {
+		margin-bottom: 50px;
+	}
+
+	.products {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.inner-text {
+		padding: 20px;
+	}
+
+	.cat-one, .cat-two {
+		margin-bottom: 30px;
+	}
 
 	.categories {
 		margin-bottom: 10px;
 		background-size: 30%;
 	}
-
-	.inner-text {
-		width: 245px;
-		padding-left: 60px;
-	}
-
-	/*######################################################################*/
 
 	.trading-products ul {
 		padding-top: 0px;
@@ -887,28 +1040,30 @@
 		padding: 10px 25px;
 	}
 
-	.trading-products-img {
-		padding-top: 10px;
-	}
-
 	.features-products-img {
 		padding-top: 10px;
 	}
 
-
-	/*#######################################################################*/
+	.offers {
+		padding: 30px;
+	}
 
 	.offer-area {
 	    text-align: center;
 	    background-image: url(../images/trading.png);
-	    background-repeat: no-repeat;
-	    background-size: 100%;
+	    background-repeat: round;
+	    background-size: cover;
 	}
 
 	.offer-area h1 {
-	    font-size: 70px;
+	    font-size: 51px;
 	    padding: 15px;
 	    margin: 0;
+	}
+
+	.offer-area h2 {
+		font-size: 35px;
+		margin: 20px;
 	}
 
 	.offer-area button {
@@ -917,8 +1072,36 @@
 	    margin: 0;
 	}
 
+	.about-area {
+		margin-top: 30px;
+	}
 
-	/*############################################################################*/
+	.about-text {
+		margin-top: 50px;
+		padding: 50px;
+	}
+
+	.about-text h2 {
+		font-size: 30px;
+	}
+
+	.about-text p {
+		font-size: 15px;
+	}
+
+	.features-area {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.features-area p {
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+
+	.img-wrap img {
+		width: 100%;
+	}
 
 	.testimonial-area h2 {
 		font-size: 35px;
@@ -929,21 +1112,17 @@
 		margin-top: 20px;
 	}
 
-	/*##################################################################*/
-
 	.subscribe-area img {
-		width: 100%;
-	    margin-left: 0;
+	    margin-left: -60px;
 	    margin-top: -33px;
+		float: none;
 	}
 
 	.subscribe {
-		background-color: transparent;
+		color: white;
 		margin-top: -285px;
-	}
-
-	.subscribe h2 {
-		color: yellowgreen;
+		background-color: #aedf23;
+		padding: 45px;
 	}
 
 	input[type=email] {
@@ -960,23 +1139,6 @@
 		width: 40%;
 	}
 
-	/*###############################################################*/
-
-	/*.footer {
-		margin-top: 5%;
-		padding-top: 18%;
-		padding-bottom: 10px;
-	}*/
-
-	/*.footer-box {
-		padding-left: 100px;
-	}*/
-
-	.footer-box h2 {
-		padding-bottom: 10px;
-		padding-top: 30px;
-	}
-
 	.copyright {
 		padding-top: 10px;
 	}
@@ -985,22 +1147,20 @@
 		margin-bottom: 0;
 	}
 
-							/*about-area*/
-
 	.about-us ul {
 		padding-top: 10px;
 	}
 
-	/*.testimonial-area1 {
-		height: 385px;
+	.grocery-area {
+		padding-top: 40px;
 	}
-*/
+
 	.grocery-text {
 		padding-top: 0;
 	}
 
 	.grocery-text p {
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	.grocery-text h2 {
@@ -1011,27 +1171,13 @@
 		margin: 0;
 	}
 
-	.features-area img {
-   	 	padding: 20px 0;
-	}
-
-	.subscribe-area img {
-		height: 400px;
+	.customer-review {
+		padding: 40px 0;
 	}
 
 	.coustomer-logo {
 		padding-top: 10px;
 	}
-
-
-									/*SHOP*/
-
-
-    .trading-products-img img {
-    	width: 80%;
-    }
-
-  									  /*PAGES*/
 
     .slider-product-details button {
     	margin: 5px 0;
@@ -1041,6 +1187,15 @@
     .slider-product-details p {
     	font-size: 13px;
     }
+
+	.shop-features-area {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+
+	.shop-trading-items {
+		margin-bottom: 30px;
+	}
 
     .product-service {
     	margin: 5px 0;
@@ -1055,12 +1210,13 @@
     	font-size: 13px;
     }
 
-    .trading-products-img {
-    	padding-bottom: 0;
-    }
+	.trading-products {
+		margin-bottom: 30px;
+		padding: 30px 0;
+	}
 
-    .trading-products-img img {
-    	width: 55%;
+    .trading-products-img {
+    	margin-bottom: 20px;
     }
 
     .trading-products-img a {
@@ -1079,30 +1235,28 @@
     }
 
     .trading-products-bg ul li i {
-    	font-size: 10px;
+    	font-size: 15px;
     }
 
     .trading-products-bg h2 {
-    	font-size: 15px;
+    	font-size: 20px;
     }
 
     .trading-products-bg p {
-    	font-size: 15px;
+    	font-size: 20px;
     	margin: 5px 0;
     }
 
     .trading-products-bg button {
-    	padding: 6px 12px;
-    	font-size: 8px;
+    	padding: 10px 30px;
+		font-size: 12px;
+		margin-top: 10px;
+		margin-bottom: 30px;
     }
 
     .copyright p {
     	padding-top: 0;
     }
-
-
-    											/*CONTACT*/
-
 
     .contact-reach-us h2 {
     	font-size: 35px;
@@ -1138,6 +1292,25 @@
     	padding-top: 0;
     }
 
+	.testimonial-area-inner {
+		margin-bottom: 30px;
+	}
+
+	.testimonial-area img {
+		margin-top: 0;
+	}
+
+	.testimonial-area p {
+		font-size: 16px;
+	}
+
+	.footer-box {
+		padding-left: 10px;
+	}
+
+	.groxi-contact-area {
+		margin-bottom: 60px;
+	}
 }
 
 
@@ -1146,12 +1319,9 @@
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-	.header-area {
-		background-position: right;
-	}
-
 	.header-left {
 		padding-top: 0px;
+		padding-bottom: 100px;
 	}
 
 	.header-left h6 {
@@ -1166,18 +1336,44 @@
 		padding-bottom: 60px;
 	}
 
-	/*######################################################*/
+	.pages-product {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	.products {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
 
 	.categories {
 		height: 200px;
 	}
 
-	.inner-text {
-		width: 69%;
-		padding-top: 35px;
+	.rating li i {
+		margin-bottom: 0;
+		font-size: 10px;
 	}
 
-	/*#######################################################*/
+	.shop-trading-img img {
+		width: 80%;
+		margin-left: 0;
+	}
+
+	.shop-trading-text h2 {
+		font-size: 13px;
+	}
+
+	.shop-trading-items h1 {
+		margin-left: 15px;
+		padding: 15px 0 0;
+		font-size: 22px;
+	}
+
+	.trading-products {
+		margin-bottom: 30px;
+		padding: 30px 0;
+	}
 
 	.trading-products ul {
 		padding-top: 0px;
@@ -1187,49 +1383,6 @@
 	.trading-products button {
 		padding: 10px 25px;
 	}
-
-	.features-products h2 {
-		font-size: 25px;
-	}
-
-	/*###############################################*/
-
-	.subscribe-area img {
-		margin-top: -140px;
-    	margin-bottom: -185px;
-    	width: 40%;
-	}
-
-	/*##############################################*/
-
-
-	      /*about-us*/
-
-	/*.header-menu ul li {
-	 	padding: 0 6px;
-	 }*/
-
-	.header-icon {
-	    margin-left: -38px;
-	    text-align: right;
-	}
-
-	.grocery-img img {
-		height: 507px;
-	}
-
-	.features-area img {
-    	padding: 20px 0 16px;
-	}
-
-	.copyright span {
-		padding: 0;
-	}
-
-
-	                                         /*SHOP*/
-
-
 
 	.trading-products-img img {
 		width: 60%;
@@ -1241,22 +1394,146 @@
     	height: 30px;
 	}
 
-	.trading-products-img {
-		padding-top: 10px;
+	.trading-products-bg ul li i {
+    	font-size: 12px;
+    }
+
+    .trading-products-bg h2 {
+    	font-size: 18px;
+    }
+
+    .trading-products-bg p {
+    	font-size: 16px;
+    	margin: 5px 0;
+    }
+
+    .trading-products-bg button {
+    	padding: 6px 12px;
+    	font-size: 8px;
+    }
+
+	.features-products h2 {
+		font-size: 25px;
 	}
 
-	.trading-products-img a {
-		padding-left: 65%;
+	.about-us {
+		margin-top: 0;
+		margin-bottom: 70px;
+		padding: 30px 0;
 	}
 
+	.about-area {
+		margin-top: 30px;
+	}
 
-										/*PAGES*/
+	.about-text {
+		margin-top: 40px;
+		padding: 40px;
+	}
 
+	.about-text h2 {
+		font-size: 30px;
+	}
+
+	.about-text p {
+		font-size: 16px;
+	}
+
+	.about-text button {
+		padding: 15px 30px;
+	}
+
+	.subscribe-area img {
+		margin-left: -50px;
+	}
+
+	.header-icon {
+	    margin-left: -38px;
+	    text-align: right;
+	}
+
+	.grocery-area {
+		padding-top: 40px;
+	}
+
+	.grocery-text {
+		padding-top: 0;
+	}
+
+	.grocery-text h2 {
+		font-size: 30px;
+	}
+
+	.grocery-text p {
+		font-size: 18px;
+	}
+
+	.grocery-img img {
+		height: 507px;
+	}
+
+	.customer-review {
+		padding: 40px 0;
+	}
+
+	.testimonial-area-inner img {
+		padding-top: 0;
+	}
+
+	.testimonial-area P{
+		font-size: 18px;
+	}
+
+	.features-area {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.features-area img {
+    	padding: 20px 0 16px;
+	}
+
+	.features-area p {
+		margin-bottom: 0;
+		font-size: 13px;
+	}
+
+	.features-area h4 {
+		font-size: 18px;
+	}
+
+	.features-area  img {
+		margin: 0;
+	}
+
+	.features-area button {
+		padding: 15px 30px;
+	}
+
+	.copyright span {
+		padding: 0;
+	}
 
 	.slider-product-details button {
-    	margin: 5px 0;
-    	padding: 10px 42px;
+    	padding: 10px 30px;
+		font-size: 10px;
     }
+
+	.plus {
+		border-left: 0;
+	}
+
+	input[type=number] {
+		width: 80px;
+	}
+
+	.tab-pane p {
+		font-size: 18px;
+	}
+
+	.review {
+		margin-bottom: 40px;
+	}
 
     .slider-product-details p {
     	font-size: 13px;
@@ -1278,53 +1555,26 @@
     	margin-bottom: 10px;
     }
 
+	.subscribe {
+		padding: 40px 0;
+		margin-top: 80px;
+	}
+
     .pages-description {
     	margin-bottom: 30px;
 	}
 
-	.trading-products-img a {
-    	padding-left: 70%;
+	.pages-related-product {
+		margin-bottom: 50px;
 	}
-
-	.trading-products-img a {
-    	font-size: 12px;
-    	padding-left: 65%;
-    }
-
-    .trading-products-img a i {
-    	line-height: 30px;
-    	width: 30px;
-    	height: 30px;
-    }
 
     .pages-related-product ul {
     	margin: 5px 0;
     }
 
-    .trading-products-bg ul li i {
-    	font-size: 10px;
-    }
-
-    .trading-products-bg h2 {
-    	font-size: 15px;
-    }
-
-    .trading-products-bg p {
-    	font-size: 15px;
-    	margin: 5px 0;
-    }
-
-    .trading-products-bg button {
-    	padding: 6px 12px;
-    	font-size: 8px;
-    }
-
-
-    									/*BLOG*/
-
-
     .blog-posts {
-    	padding-top: 0;
+    	margin-top: 60px;
+		margin-bottom: 60px;
     }
 
     .blog-post-contant h6 {
@@ -1344,10 +1594,6 @@
     	font-size: 12px;
     }
 
-
-    								/*CONTACT*/
-
-
    	.contact-map {
    		padding: 40px 0;
    	}
@@ -1356,21 +1602,104 @@
    		padding: 0;
    	}
 
+	input[type=submit] {
+		width: 30%;
+	}
+
    	.copyright span {
-   		padding-left: 65px;
+   		padding-left: 20px;
    	}
 
+	.footer-box {
+		padding-left: 60px;
+	}
 
-
+	.groxi-contact-area {
+		margin-bottom: 80px;
+	}
 }
 
 /*####################################################################################################################*/
 
 /*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
 
 	.header-menu {
 		justify-content: start;
+	}
+
+	.header-left {
+		padding: 50px 0;
+	}
+
+	.pages-product {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.tab-pane p {
+		font-size: 16px;
+	}
+
+	.review {
+		margin-bottom: 40px;
+	}
+
+	.products {
+		margin: 70px auto;
+	}
+
+	.trading-products {
+		margin-bottom: 70px;
+		padding: 40px 0;
+	}
+
+	.about-us {
+		margin-top: 40px;
+		margin-bottom: 80px;
+		padding: 30px 0;
+	}
+
+	.about-area {
+		margin-top: 70px;
+	}
+
+	.about-text {
+		margin-top: 70px;
+		padding: 70px;
+	}
+
+	.about-text h2 {
+		font-size: 30px;
+	}
+
+	.about-text p {
+		font-size: 18px;
+	}
+
+	.blog-posts {
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+
+	.grocery-area {
+		padding-top: 40px;
+	}
+
+	.grocery-text {
+		padding-top: 0;
+	}
+
+	.customer-review {
+		padding: 60px 0;
+	}
+
+	.subscribe-area img {
+		margin-left: -45px;
+	}
+
+	.testimonial-area p {
+		font-size: 20px;
 	}
 
 	.img-wrap img {
@@ -1378,21 +1707,8 @@
 	}
 
 	.copyright span {
-		padding-left: 190px;
+		margin-left: 85px;
 	}
-
-	/* .subscribe-area img {
-		margin-bottom: -15%;
-    	margin-top: -220px;
-    	width: 40%;
-    	margin-left: 0;
-	} */
-
-
-		                                 /*SHOP*/
-
-
-
 
 	.trading-products-img a i {
 		line-height: 45px;
@@ -1400,17 +1716,10 @@
     	height: 45px;
 	}
 
-
-									/*PAGES*/
-
-
-	.slider-product-details h1 {
-		font-size: 33px;
+	.features-area {
+		margin-top: 70px;
+		margin-bottom: 70px;
 	}
-
-    .slider-product-details p {
-    	font-size: 13px;
-    }
 
     .product-service {
     	margin: 5px 0;
@@ -1420,28 +1729,24 @@
     	margin: 3px 0;
     }
 
-    .slider-product-details h3 {
-    	padding-top: 12px;
-    	font-size: 30px;
-
-    }
-
     .slider-product-details p {
     	margin-bottom: 18px;
-    	font-size: 17px	;
     }
 
     .pages-description {
-    	margin-bottom: 30px;
-	}
-
-	.product-share span {
-		font-size: 30px;
-    	padding-right: 30px;
+    	margin-bottom: 70px;
 	}
 
 	.product-share {
 		padding-bottom: 15px;
+	}
+
+	.pages-related-product {
+		margin-bottom: 40px;
+	}
+
+	.footer-box {
+		padding-left: 110px;
 	}
 
 
