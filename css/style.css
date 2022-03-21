@@ -713,7 +713,6 @@ input[type=submit] {
 
 /*########################################################*/
 
-
 .copyright {
 	color: #4a8066;
 	background-color: #14462e;
@@ -725,7 +724,6 @@ input[type=submit] {
 	list-style: none;
 	padding-left: 0;
 	float: right;
-	/*margin-right: 40px;*/
 }
 
 .copyright ul li {
@@ -735,6 +733,10 @@ input[type=submit] {
 
 .copyright a {
 	color: #4a8066;
+}
+
+.copyright span {
+	padding-left: 130px;
 }
 
 
@@ -747,12 +749,6 @@ input[type=submit] {
  	 background-size: cover;
 }
 
-/*.about-us-area ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}*/
-
 .about-us-area > .header-menu ul li {
 	display: inline-block;
 	color: #9fcb22;
@@ -764,7 +760,6 @@ input[type=submit] {
 	margin-top: 100px;
 	margin-bottom: 140px;
 	padding: 50px 0px;
-
 }
 
 .about-us h2 {
@@ -789,7 +784,6 @@ input[type=submit] {
 }
 
 /*############################################*/
-
 
 .grocery-img img {
 	margin-left: -50px;
@@ -1086,9 +1080,9 @@ label {
 }
 
 .inner-text {
-  padding-left: 35px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+	padding-left: 35px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 .inner-text h4 {
@@ -1165,10 +1159,10 @@ label {
 
 .pages-slider i {
 	color: white;
-  background: #9fcb22;
-  padding: 4px 58px;
-  font-size: 20px;
-  text-align: center;
+	background: #9fcb22;
+	padding: 4px 58px;
+	font-size: 20px;
+	text-align: center;
 }
 
 .pages-slider i:hover {
@@ -1184,8 +1178,8 @@ label {
 .slider-img {
 	background-color: #f6fafb;
 	margin: 5px 0;
-  text-align: center;
-  border: 1px solid transparent;
+	text-align: center;
+	border: 1px solid transparent;
 }
 
 .slider-img:hover {
@@ -1218,7 +1212,6 @@ label {
 	padding-left: 35px;
 }
 
-
 .slider-product-details h4 del {
 	font-family: Barlow-Light;
 	color: #b2b3b4;
@@ -1236,7 +1229,6 @@ label {
 	font-size: 24px;
 	margin-top: 30px;
 }
-
 
 input[type=button]{
 	border: 1px solid #deecf0;
@@ -1275,7 +1267,6 @@ input[type=number]{
 	font-size: 20px;
 }
 
-
 /*###############################################################################*/
 
 .product-share span {
@@ -1288,11 +1279,9 @@ input[type=number]{
 	color: #9fcb22;
 }
 
-
 .slider-product-details > .product-service h4 {
 	display: inline-block;
 }
-
 
 .product-service {
 	border: 1px solid #deecf0;
@@ -1357,11 +1346,6 @@ input[type=number]{
 	font-size: 20px;
 	color: black;
 }
-
-/*.pages-description ul li a:hover {
-	border-bottom: 3px solid #9fcb22;
-  padding-bottom: 15px;
-}*/
 
 .pages-description p {
 	font-family: 'Barlow-light';

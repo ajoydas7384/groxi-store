@@ -991,7 +991,6 @@
 		</div>
 	</section>
 
-
 	<!-- ################################################################# -->
 
 	<section class="testimonial-area">
@@ -1007,7 +1006,7 @@
 				<div class="col">
 					<div class="owl-carousel owl-theme">
 						<div class="row items">
-							<div class="col-12 col-md-6">
+							<div class="col">
 								<div class="testimonial-area-inner">
 									<img src="images/colon.png" alt="#">
 									<p>”1Quisquam est, qui dolorem ipsum quia dolor sit consectetur adipisci velit sed quia non numqua eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem repudia sint et molestiae”</p>
@@ -1021,8 +1020,10 @@
 									<h5>Alina Parker <span>Ceo, GTD</span></h5>
 								</div>
 							</div>
+						</div>
 			
-							<div class="col-12 col-md-6">
+						<div class="row items">
+							<div class="col">
 								<div class="testimonial-area-inner">
 									<img src="images/colon.png" alt="#">
 									<p>”2Exercitationem ullam corporis suscipit laborio nisi ut aliquid ex ea commodi consequatur uis autem vel eum iure reprehenderit qui in ea vou velit esse quam nihil molestiae consequatur,vel illum qui dolorem eum fugiat”</p>
@@ -1039,7 +1040,7 @@
 						</div>
 
 						<div class="row items">
-							<div class="col-12 col-md-6">
+							<div class="col">
 								<div class="testimonial-area-inner">
 									<img src="images/colon.png" alt="#">
 									<p>”3Quisquam est, qui dolorem ipsum quia dolor sit consectetur adipisci velit sed quia non numqua eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem repudia sint et molestiae”</p>
@@ -1053,8 +1054,10 @@
 									<h5>Alina Parker <span>Ceo, GTD</span></h5>
 								</div>
 							</div>
+						</div>
 			
-							<div class="col-12 col-md-6">
+						<div class="row items">
+							<div class="col">
 								<div class="testimonial-area-inner">
 									<img src="images/colon.png" alt="#">
 									<p>”4Exercitationem ullam corporis suscipit laborio nisi ut aliquid ex ea commodi consequatur uis autem vel eum iure reprehenderit qui in ea vou velit esse quam nihil molestiae consequatur,vel illum qui dolorem eum fugiat”</p>
@@ -1071,7 +1074,7 @@
 						</div>
 
 						<div class="row items">
-							<div class="col-12 col-md-6">
+							<div class="col">
 								<div class="testimonial-area-inner">
 									<img src="images/colon.png" alt="#">
 									<p>”5Quisquam est, qui dolorem ipsum quia dolor sit consectetur adipisci velit sed quia non numqua eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem repudia sint et molestiae”</p>
@@ -1085,8 +1088,10 @@
 									<h5>Alina Parker <span>Ceo, GTD</span></h5>
 								</div>
 							</div>
+						</div>
 			
-							<div class="col-12 col-md-6">
+						<div class="row items">
+							<div class="col">
 								<div class="testimonial-area-inner">
 									<img src="images/colon.png" alt="#">
 									<p>”6Exercitationem ullam corporis suscipit laborio nisi ut aliquid ex ea commodi consequatur uis autem vel eum iure reprehenderit qui in ea vou velit esse quam nihil molestiae consequatur,vel illum qui dolorem eum fugiat”</p>
@@ -1214,11 +1219,11 @@
 				<div class="col-md-4 col-sm-12">
 					<span class="d-none d-lg-inline-block">Follow Us :</span>
 					<ul class="ps-0 float-lg-end">
-						<li><i class="fab fa-facebook-f"></i></li>
-						<li><i class="fab fa-twitter"></i></li>
-						<li><i class="fab fa-linkedin-in"></i></li>
-						<li><i class="fab fa-pinterest"></i></li>
-						<li><i class="fab fa-instagram"></i></li>
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -1235,6 +1240,21 @@
 				autoplayTimeout : 2000,
 				dots : false,
 				loop : true,
+
+				margin: 20,
+					
+				responsiveClass:true,
+				responsive:{
+					0:{
+						items:1,
+					},
+					600:{
+						items:1,
+					},
+					1000:{
+						items:2,
+					}
+				}
             });
         });
     </script>
